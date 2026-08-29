@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ description|default(title, true)|e }}">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#2e6fd8">
+  <title>{{ title|e }} · CP.UZ Algoritmlar</title>
+  <link rel="icon" type="image/webp" href="{{ prefix }}assets/favicon.webp">
+  <link rel="stylesheet" href="{{ prefix }}assets/style.css">
+  <script src="{{ prefix }}assets/mathjax-config.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script defer src="{{ prefix }}assets/site.js"></script>
+  {% block head %}{% endblock %}
+</head>
+<body class="{{ body_class|default('') }}">
+  <a class="skip-link" href="#main-content">Asosiy matnga o‘tish</a>
+  <header class="site-header">
+    <div class="site-shell header-inner">
+      <a class="brand" href="{{ prefix }}index.html" aria-label="CP.UZ Algoritmlar bosh sahifasi">
+        <img src="{{ prefix }}assets/cpuz-mark.webp" width="44" height="44" alt="">
+        <span><strong>CP.UZ</strong><small>Algoritmlar</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menyu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Asosiy navigatsiya">
+        <a href="{{ prefix }}index.html">Maqolalar</a>
+        <a href="{{ prefix }}status/index.html">Review holati</a>
+        <a href="{{ prefix }}glossary/index.html">Lug‘at</a>
+        <a href="{{ prefix }}contribute/index.html">Hissa qo‘shish</a>
+        <a href="{{ moderation_url }}">Moderatsiya</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="site-shell page-main">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="site-shell footer-inner">
+      <div>
+        <strong>CP.UZ Algoritmlar</strong>
+        <p>cp-algorithms materiallarining o‘zbekcha moslashtirishi.</p>
+      </div>
+      <div class="footer-links">
+        <a href="{{ prefix }}attribution/index.html">Manba va litsenziya</a>
+        <a href="{{ repository_url }}" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <p class="footer-license">Maqola materiallari CC BY-SA 4.0. Upstream commitlar har bir sahifada ko‘rsatiladi.</p>
+    </div>
+  </footer>
+</body>
+</html>

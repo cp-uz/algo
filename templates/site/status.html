@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<nav class="breadcrumbs"><a href="{{ prefix }}index.html">Bosh sahifa</a><span>/</span><span>Review holati</span></nav>
+<section class="page-heading"><p class="eyebrow">Workflow</p><h1>Tarjima va review holati</h1><p>Bu jadval <code>data/articles.yml</code> va joriy Markdown mazmunidan avtomatik yaratiladi.</p></section>
+<div class="stats-grid compact">
+  <div><strong>{{ stats.total }}</strong><span>jami</span></div>
+  <div><strong>{{ stats.technical_approved }}</strong><span>texnik approved</span></div>
+  <div><strong>{{ stats.language_approved }}</strong><span>til approved</span></div>
+  <div><strong>{{ stats.stale }}</strong><span>qayta review kerak</span></div>
+</div>
+<div class="table-card">
+  <div class="table-toolbar"><label>Jadvalni filtrlash <input type="search" data-table-filter="review-table" placeholder="Maqola yoki holat…"></label></div>
+  <div class="table-scroll"><table id="review-table"><thead><tr><th>Maqola</th><th>Bosqich</th><th>Texnik review</th><th>Til reviewi</th><th>Upstream</th></tr></thead><tbody>
+    {% for article in articles %}<tr><td><a href="{{ prefix }}{{ article.route }}">{{ article.title_uz }}</a><small>{{ article.path }}</small></td><td><span class="badge badge-{{ article.workflow_stage }}">{{ article.stage_label }}</span></td><td>{{ article.technical_label }}</td><td>{{ article.language_label }}</td><td>{{ article.upstream_status }}</td></tr>{% endfor %}
+  </tbody></table></div>
+</div>
+{% endblock %}

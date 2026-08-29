@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<nav class="breadcrumbs"><a href="{{ prefix }}index.html">Bosh sahifa</a><span>/</span><span>Lug‘at</span></nav>
+<section class="page-heading"><p class="eyebrow">Terminologiya</p><h1>CP.UZ lug‘ati</h1><p>Maqolalarda bir xil atamalardan foydalanish uchun umumiy terminlar ro‘yxati.</p></section>
+<div class="table-card"><div class="table-toolbar"><label>Termin qidirish <input type="search" data-table-filter="glossary-table" placeholder="English yoki o‘zbekcha…"></label></div><div class="table-scroll"><table id="glossary-table"><thead><tr><th>English</th><th>O‘zbekcha</th><th>Izoh</th></tr></thead><tbody>{% for item in glossary %}<tr><td><code>{{ item.source }}</code></td><td>{{ item.uzbek }}</td><td>{{ item.note }}</td></tr>{% endfor %}</tbody></table></div></div>
+{% endblock %}

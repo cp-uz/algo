@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+<nav class="breadcrumbs" aria-label="Sahifa yo‘li">
+  <a href="{{ prefix }}index.html">Bosh sahifa</a><span aria-hidden="true">/</span>
+  <a href="{{ prefix }}index.html#{{ category_slug }}">{{ article.category_uz }}</a><span aria-hidden="true">/</span>
+  <span aria-current="page">{{ article.title_uz }}</span>
+</nav>
+<div class="article-layout">
+  <article class="article-card" data-workflow-stage="{{ article.workflow_stage }}" data-translation-scope="{{ article.translation_scope }}">
+    <header class="article-header">
+      <p class="eyebrow">{{ article.category_uz }} · {{ article.subcategory_uz }}</p>
+      <h1>{{ article.title_uz }}</h1>
+      <p class="source-title">Asl sarlavha: <a href="{{ article.source_url }}" rel="noopener noreferrer">{{ article.source_title }}</a></p>
+      <div class="status-row" aria-label="Maqola review holati">
+        <span class="badge badge-stage badge-{{ article.workflow_stage }}">{{ stage_label }}</span>
+        <span class="badge badge-review badge-{{ article.technical_review }}">Texnik: {{ technical_label }}</span>
+        <span class="badge badge-review badge-{{ article.language_review }}">Til: {{ language_label }}</span>
+      </div>
+      <div class="article-actions">
+        <a class="button button-primary" href="{{ edit_url }}">Tahrirlashni taklif qilish</a>
+        <a class="button button-secondary" href="{{ article.source_url }}" rel="noopener noreferrer">Asl maqola ↗</a>
+      </div>
+    </header>
+
+    {% if article.upstream_status == 'changed' %}
+    <div class="notice notice-warning"><strong>Upstream o‘zgargan.</strong> O‘zbekcha matn saqlangan, ammo yangi manba bilan taqqoslash va qayta review talab qilinadi.</div>
+    {% elif not article.full_prose_translated %}
+    <div class="notice notice-warning"><strong>Konspekt qoralamasi.</strong> Bu sahifa hozircha upstream maqolaning to‘liq, source-faithful tarjimasi emas.</div>
+    {% elif article.workflow_stage in ['technical_review_pending', 'language_review_pending', 'needs_re_review'] %}
+    <div class="notice notice-info"><strong>Review jarayoni davom etmoqda.</strong> Matndan foydalanishda texnik tafsilotlarni asl manba bilan tekshirish tavsiya qilinadi.</div>
+    {% endif %}
+
+    <div class="article-content">{{ rendered_html|safe }}</div>
+
+    <section class="provenance" aria-labelledby="provenance-title">
+      <div>
+        <p class="eyebrow">Manba va holat</p>
+        <h2 id="provenance-title">Maqola ma’lumotlari</h2>
+      </div>
+      <dl>
+        <div><dt>Manba</dt><dd><a href="{{ article.source_url }}" rel="noopener noreferrer">{{ article.source_title }}</a></dd></div>
+        <div><dt>Source fayl</dt><dd><code>{{ article.source_file }}</code></dd></div>
+        <div><dt>Asos commit</dt><dd><code title="{{ article.source_commit }}">{{ article.source_commit[:12] }}</code></dd></div>
+        <div><dt>Tarjima sanasi</dt><dd>{{ article.translated_at or 'Ko‘rsatilmagan' }}</dd></div>
+        <div><dt>Texnik review</dt><dd>{{ technical_detail }}</dd></div>
+        <div><dt>Til reviewi</dt><dd>{{ language_detail }}</dd></div>
+        <div><dt>Litsenziya</dt><dd><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer">CC BY-SA 4.0</a></dd></div>
+      </dl>
+      <p class="small-text">Bu CP.UZ tomonidan tayyorlangan o‘zbekcha moslashtirishdir; cp-algorithms mualliflarining rasmiy tasdig‘ini anglatmaydi.</p>
+    </section>
+
+    <nav class="article-pager" aria-label="Oldingi va keyingi maqola">
+      {% if previous %}<a href="{{ prefix }}{{ previous.route }}"><span>← Oldingi</span><strong>{{ previous.title_uz }}</strong></a>{% else %}<span></span>{% endif %}
+      {% if following %}<a class="pager-next" href="{{ prefix }}{{ following.route }}"><span>Keyingi →</span><strong>{{ following.title_uz }}</strong></a>{% else %}<span></span>{% endif %}
+    </nav>
+  </article>
+
+  <aside class="article-sidebar">
+    <div class="toc-card">
+      <p class="toc-title">Mundarija</p>
+      {% if toc %}
+      <nav aria-label="Maqola mundarijasi"><ol>
+        {% for item in toc %}<li class="toc-level-{{ item.level }}"><a href="#{{ item.identifier }}">{{ item.title }}</a></li>{% endfor %}
+      </ol></nav>
+      {% else %}<p class="small-text">Bu sahifada alohida bo‘limlar yo‘q.</p>{% endif %}
+    </div>
+    <a class="sidebar-edit" href="{{ edit_url }}"><strong>Xato topdingizmi?</strong><span>Markdown tahririni moderatorga yuboring.</span></a>
+  </aside>
+</div>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block head %}<script defer src="{{ prefix }}assets/search.js"></script>{% endblock %}
+{% block content %}
+<section class="home-hero">
+  <div class="hero-copy">
+    <p class="eyebrow">Competitive Programming Uzbekistan</p>
+    <h1>Algoritmlar va ma’lumotlar tuzilmalari — o‘zbek tilida</h1>
+    <p>cp-algorithms maqolalarining manbasi, tarjima holati va inson reviewi aniq qayd etiladigan ochiq bilim bazasi.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="#maqolalar">Maqolalarni ko‘rish</a>
+      <a class="button button-secondary" href="contribute/index.html">Hissa qo‘shish</a>
+    </div>
+  </div>
+  <div class="hero-mark" aria-hidden="true"><img src="assets/cpuz-logo.webp" width="280" height="280" alt=""></div>
+</section>
+
+<section class="stats-grid" aria-label="Loyiha statistikasi">
+  <div><strong>{{ stats.total }}</strong><span>maqola yo‘nalishi</span></div>
+  <div><strong>{{ stats.full }}</strong><span>to‘liq tarjima qoralamasi</span></div>
+  <div><strong>{{ stats.reviewed }}</strong><span>ikkala reviewdan o‘tgan</span></div>
+  <div><strong>{{ stats.published }}</strong><span>published</span></div>
+</section>
+
+<section class="search-panel" aria-labelledby="search-title">
+  <div><p class="eyebrow">Tezkor qidiruv</p><h2 id="search-title">Maqolani toping</h2></div>
+  <label class="search-field"><span class="sr-only">Maqolalarni qidirish</span><input id="article-search" type="search" placeholder="Algoritm, mavzu yoki English sarlavha…" autocomplete="off"></label>
+  <div id="search-results" class="search-results" hidden></div>
+</section>
+
+<section id="maqolalar" class="category-index">
+  <div class="section-heading"><div><p class="eyebrow">Mundarija</p><h2>Barcha bo‘limlar</h2></div><a href="status/index.html">Review holatini ko‘rish →</a></div>
+  {% for group in groups %}
+  <section id="{{ group.slug }}" class="category-section">
+    <header><h3>{{ group.name }}</h3><span>{{ group.articles|length }} maqola</span></header>
+    <ul>
+      {% for article in group.articles %}
+      <li><a href="{{ article.route }}"><span>{{ article.title_uz }}<small>{{ article.source_title }}</small></span><span class="mini-status mini-{{ article.workflow_stage }}">{{ article.stage_label }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</section>
+{% endblock %}
