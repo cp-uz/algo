@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Taklif #{{ proposal.id }} moderatsiyasi{% endblock %}
+{% block content %}
+<nav class="breadcrumbs"><a href="/moderation/">Moderatsiya</a><span>/</span><span>#{{ proposal.id }}</span></nav>
+<header class="admin-heading"><p class="eyebrow">{{ proposal.article_path }}</p><h1>Taklif #{{ proposal.id }}</h1><div class="status-row"><span class="badge badge-{{ proposal.status }}">{{ status_labels.get(proposal.status,proposal.status) }}</span><span class="diff-stat added">+{{ added }}</span><span class="diff-stat removed">−{{ removed }}</span></div><p>{{ proposal.submitter_name }} (@{{ proposal.submitter_login }}) · {{ proposal.created_at }}</p><p>{{ proposal.summary or 'O‘zgarishlar izohi berilmagan.' }}</p></header>
+<div class="review-status-strip"><a href="/moderation/article/{{ article.path }}"><strong>Texnik:</strong> {{ review_labels.get(technical.status,technical.status) }}</a><a href="/moderation/article/{{ article.path }}"><strong>Til:</strong> {{ review_labels.get(language.status,language.status) }}</a></div>
+{% if proposal.claim %}
+<p class="notice notice-warning">
+  <strong>{% if claim_stale %}Qo‘llash jarayoni uzilib qolgan bo‘lishi mumkin:{% else %}Qo‘llash jarayoni davom etmoqda:{% endif %}</strong>
+  {{ proposal.claim.moderator_name }} · {{ proposal.claim.claimed_at }}.
+  {% if claim_owned %}Xavfsiz qayta urinish uchun tasdiqlash tugmasini yana bosishingiz mumkin.
+  {% elif claim_stale and can_decide %}Belgilangan kutish muddati o‘tgan; tasdiqlash orqali stale claimni xavfsiz qabul qilib olishingiz mumkin.
+  {% endif %}
+</p>
+{% endif %}
+<section class="diff-card">
+  <div class="diff-header"><span>Eski matn</span><span>Taklif qilingan matn</span></div>
+  <div class="diff-table" role="table" aria-label="Markdown farqi">
+  {% for row in rows %}<div class="diff-row diff-{{ row.kind }}" role="row"><div class="line-number">{{ row.old_number or '' }}</div><pre>{{ row.old_text }}</pre><div class="line-number">{{ row.new_number or '' }}</div><pre>{{ row.new_text }}</pre></div>{% endfor %}
+  </div>
+</section>
+{% if can_decide and proposal.status in ['pending','changes_requested'] %}
+<section class="form-card decision-card">
+  <h2>Moderator qarori</h2>
+  {% if proposal.status == 'changes_requested' %}<p class="notice notice-info">Taklif muallifning yangilashini kutmoqda. Uni yopish uchun rad etish mumkin.</p>{% endif %}
+  <form method="post" action="/moderation/{{ proposal.id }}/decision">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <label for="feedback">Izoh / feedback</label>
+    <textarea id="feedback" name="feedback" rows="4" maxlength="4000"></textarea>
+    <div class="form-actions">
+      <button class="button button-danger" name="action" value="reject" type="submit">Rad etish</button>
+      {% if proposal.status == 'pending' %}
+      <button class="button button-warning" name="action" value="request_changes" type="submit">O‘zgartirish so‘rash</button>
+      <button class="button button-primary" name="action" value="approve" type="submit" {% if not can_approve %}disabled aria-disabled="true" title="Boshqa moderator qo‘llash jarayonini bajarmoqda"{% endif %}>{% if claim_stale and not claim_owned %}Jarayonni qabul qilib olish va qo‘llash{% else %}Tasdiqlash va qo‘llash{% endif %}</button>
+      {% endif %}
+    </div>
+  </form>
+</section>
+{% endif %}
+{% if proposal.applied_url %}<p class="notice notice-success"><a href="{{ proposal.applied_url }}" rel="noopener noreferrer">GitHub natijasini ochish ↗</a></p>{% endif %}
+<section class="form-card">
+  <h2>Taklif tarixi</h2>
+  <ol class="event-list">
+    {% for event in proposal.events %}<li><strong>{{ event.event }}</strong><span>{{ event.actor_name }} · {{ event.at }}</span>{% if event.message %}<p>{{ event.message }}</p>{% endif %}</li>{% else %}<li>Hali tarix yo‘q.</li>{% endfor %}
+  </ol>
+</section>
+{% endblock %}

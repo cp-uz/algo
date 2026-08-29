@@ -1,0 +1,3 @@
+{% extends "base.html" %}
+{% block title %}Mahalliy kirish{% endblock %}
+{% block content %}<section class="auth-card"><p class="eyebrow">Faqat development</p><h1>Mahalliy test akkaunti</h1><p>Bu sahifa production muhitida mavjud emas.</p><form method="post" action="/dev/login"><input type="hidden" name="next" value="{{ next }}"><label>Login<input name="login" value="local-moderator" required></label><label>Ism<input name="name" value="Local Moderator" required></label><label>Rol<select name="role"><option value="contributor">Contributor</option><option value="reviewer">Reviewer</option><option value="moderator" selected>Moderator</option></select></label><button class="button button-primary" type="submit">Kirish</button></form></section>{% endblock %}

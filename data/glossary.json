@@ -1,0 +1,402 @@
+[
+  {
+    "source": "algorithm",
+    "uzbek": "algoritm",
+    "note": "Algorithm nomlari odatda asl English nomi bilan saqlanadi; izohi o‘zbekcha beriladi."
+  },
+  {
+    "source": "array",
+    "uzbek": "massiv",
+    "note": ""
+  },
+  {
+    "source": "graph",
+    "uzbek": "graf",
+    "note": ""
+  },
+  {
+    "source": "vertex",
+    "uzbek": "tugun",
+    "note": "“Cho‘qqi” emas, loyiha bo‘ylab “tugun” ishlatiladi."
+  },
+  {
+    "source": "node",
+    "uzbek": "tugun",
+    "note": ""
+  },
+  {
+    "source": "edge",
+    "uzbek": "qirra",
+    "note": ""
+  },
+  {
+    "source": "tree",
+    "uzbek": "daraxt",
+    "note": ""
+  },
+  {
+    "source": "root",
+    "uzbek": "ildiz",
+    "note": ""
+  },
+  {
+    "source": "leaf",
+    "uzbek": "barg",
+    "note": ""
+  },
+  {
+    "source": "ancestor",
+    "uzbek": "ajdod",
+    "note": ""
+  },
+  {
+    "source": "descendant",
+    "uzbek": "avlod",
+    "note": ""
+  },
+  {
+    "source": "path",
+    "uzbek": "yo‘l",
+    "note": ""
+  },
+  {
+    "source": "walk",
+    "uzbek": "yurish",
+    "note": "Grafdagi vertex/edge ketma-ketligi."
+  },
+  {
+    "source": "cycle",
+    "uzbek": "sikl",
+    "note": ""
+  },
+  {
+    "source": "connected component",
+    "uzbek": "bog‘langan komponent",
+    "note": ""
+  },
+  {
+    "source": "bridge",
+    "uzbek": "ko‘prik",
+    "note": ""
+  },
+  {
+    "source": "articulation point",
+    "uzbek": "artikulyatsiya nuqtasi",
+    "note": ""
+  },
+  {
+    "source": "directed graph",
+    "uzbek": "yo‘naltirilgan graf",
+    "note": ""
+  },
+  {
+    "source": "undirected graph",
+    "uzbek": "yo‘naltirilmagan graf",
+    "note": ""
+  },
+  {
+    "source": "weighted graph",
+    "uzbek": "vaznli graf",
+    "note": ""
+  },
+  {
+    "source": "shortest path",
+    "uzbek": "eng qisqa yo‘l",
+    "note": ""
+  },
+  {
+    "source": "spanning tree",
+    "uzbek": "ostov daraxt",
+    "note": "“Qamrovchi daraxt” bilan aralashtirmaslik uchun standart sifatida “ostov daraxt” tanlangan."
+  },
+  {
+    "source": "minimum spanning tree",
+    "uzbek": "minimum ostov daraxt (MST)",
+    "note": ""
+  },
+  {
+    "source": "complexity",
+    "uzbek": "murakkablik",
+    "note": ""
+  },
+  {
+    "source": "time complexity",
+    "uzbek": "vaqt murakkabligi",
+    "note": ""
+  },
+  {
+    "source": "space complexity",
+    "uzbek": "xotira murakkabligi",
+    "note": ""
+  },
+  {
+    "source": "binary search",
+    "uzbek": "ikkilik qidiruv",
+    "note": ""
+  },
+  {
+    "source": "ternary search",
+    "uzbek": "uchlik qidiruv",
+    "note": ""
+  },
+  {
+    "source": "dynamic programming",
+    "uzbek": "dinamik dasturlash",
+    "note": ""
+  },
+  {
+    "source": "state",
+    "uzbek": "holat",
+    "note": ""
+  },
+  {
+    "source": "transition",
+    "uzbek": "o‘tish",
+    "note": ""
+  },
+  {
+    "source": "recurrence",
+    "uzbek": "rekurrent formula",
+    "note": ""
+  },
+  {
+    "source": "string",
+    "uzbek": "satr",
+    "note": ""
+  },
+  {
+    "source": "substring",
+    "uzbek": "ostsatr",
+    "note": "Uzluksiz bo‘lak."
+  },
+  {
+    "source": "subsequence",
+    "uzbek": "qism ketma-ketlik",
+    "note": "Elementlar tartibi saqlanadi, uzluksizlik talab qilinmaydi."
+  },
+  {
+    "source": "prefix",
+    "uzbek": "prefiks",
+    "note": ""
+  },
+  {
+    "source": "suffix",
+    "uzbek": "suffiks",
+    "note": ""
+  },
+  {
+    "source": "hash",
+    "uzbek": "hash",
+    "note": ""
+  },
+  {
+    "source": "collision",
+    "uzbek": "kolliziya",
+    "note": ""
+  },
+  {
+    "source": "set",
+    "uzbek": "to‘plam",
+    "note": ""
+  },
+  {
+    "source": "multiset",
+    "uzbek": "multito‘plam",
+    "note": ""
+  },
+  {
+    "source": "stack",
+    "uzbek": "stack",
+    "note": "Algorithm/data structure nomi sifatida English shakli saqlanadi."
+  },
+  {
+    "source": "queue",
+    "uzbek": "queue",
+    "note": "Algorithm/data structure nomi sifatida English shakli saqlanadi."
+  },
+  {
+    "source": "deque",
+    "uzbek": "deque",
+    "note": ""
+  },
+  {
+    "source": "priority queue",
+    "uzbek": "priority queue",
+    "note": ""
+  },
+  {
+    "source": "segment",
+    "uzbek": "kesma",
+    "note": "Geometriyada ham, massiv oralig‘ida ham kontekstga qarab."
+  },
+  {
+    "source": "range",
+    "uzbek": "oraliq",
+    "note": ""
+  },
+  {
+    "source": "query",
+    "uzbek": "so‘rov",
+    "note": ""
+  },
+  {
+    "source": "update",
+    "uzbek": "yangilash",
+    "note": ""
+  },
+  {
+    "source": "lazy propagation",
+    "uzbek": "lazy propagation",
+    "note": "Texnik nom English saqlanadi, birinchi ishlatishda izohlanadi."
+  },
+  {
+    "source": "modular arithmetic",
+    "uzbek": "modul arifmetikasi",
+    "note": ""
+  },
+  {
+    "source": "modular inverse",
+    "uzbek": "modul bo‘yicha teskari element",
+    "note": ""
+  },
+  {
+    "source": "divisor",
+    "uzbek": "bo‘luvchi",
+    "note": ""
+  },
+  {
+    "source": "multiple",
+    "uzbek": "karrali son",
+    "note": ""
+  },
+  {
+    "source": "prime number",
+    "uzbek": "tub son",
+    "note": ""
+  },
+  {
+    "source": "composite number",
+    "uzbek": "murakkab son",
+    "note": ""
+  },
+  {
+    "source": "greatest common divisor",
+    "uzbek": "eng katta umumiy bo‘luvchi (EKUB)",
+    "note": ""
+  },
+  {
+    "source": "least common multiple",
+    "uzbek": "eng kichik umumiy karrali (EKUK)",
+    "note": ""
+  },
+  {
+    "source": "congruence",
+    "uzbek": "kongruensiya",
+    "note": ""
+  },
+  {
+    "source": "matrix",
+    "uzbek": "matritsa",
+    "note": ""
+  },
+  {
+    "source": "determinant",
+    "uzbek": "determinant",
+    "note": ""
+  },
+  {
+    "source": "rank",
+    "uzbek": "rang",
+    "note": "Matritsa kontekstida."
+  },
+  {
+    "source": "polynomial",
+    "uzbek": "ko‘phad",
+    "note": ""
+  },
+  {
+    "source": "coefficient",
+    "uzbek": "koeffitsiyent",
+    "note": ""
+  },
+  {
+    "source": "convex hull",
+    "uzbek": "qavariq qobiq",
+    "note": ""
+  },
+  {
+    "source": "line",
+    "uzbek": "to‘g‘ri chiziq",
+    "note": ""
+  },
+  {
+    "source": "circle",
+    "uzbek": "aylana",
+    "note": "Disk/filled circle ma’nosida “doira” ishlatiladi."
+  },
+  {
+    "source": "intersection",
+    "uzbek": "kesishma",
+    "note": ""
+  },
+  {
+    "source": "area",
+    "uzbek": "yuza",
+    "note": ""
+  },
+  {
+    "source": "flow",
+    "uzbek": "oqim",
+    "note": ""
+  },
+  {
+    "source": "capacity",
+    "uzbek": "sig‘im",
+    "note": ""
+  },
+  {
+    "source": "cost",
+    "uzbek": "xarajat",
+    "note": ""
+  },
+  {
+    "source": "matching",
+    "uzbek": "matching",
+    "note": "Texnik nom English saqlanadi."
+  },
+  {
+    "source": "bitmask",
+    "uzbek": "bitmask",
+    "note": ""
+  },
+  {
+    "source": "submask",
+    "uzbek": "submaska",
+    "note": ""
+  },
+  {
+    "source": "proof",
+    "uzbek": "isbot",
+    "note": ""
+  },
+  {
+    "source": "implementation",
+    "uzbek": "implementatsiya",
+    "note": ""
+  },
+  {
+    "source": "amortized",
+    "uzbek": "amortizatsiyalangan",
+    "note": ""
+  },
+  {
+    "source": "expected time",
+    "uzbek": "kutilgan vaqt",
+    "note": ""
+  },
+  {
+    "source": "worst case",
+    "uzbek": "eng yomon holat",
+    "note": ""
+  }
+]

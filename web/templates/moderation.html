@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Moderatsiya{% endblock %}
+{% block content %}
+<header class="admin-heading"><p class="eyebrow">Moderator paneli</p><h1>Moderatsiya</h1><p>Takliflarni tekshiring va maqolalarning texnik hamda til review holatini boshqaring.</p></header>
+<nav class="filter-tabs" aria-label="Taklif holati">
+{% for value,label in status_labels.items() %}<a class="{% if selected_status == value %}active{% endif %}" href="/moderation/?status={{ value }}">{{ label }}</a>{% endfor %}<a class="{% if selected_status == 'all' %}active{% endif %}" href="/moderation/?status=all">Barchasi</a>
+</nav>
+<section>
+  <h2>Tahrirlash takliflari</h2>
+  <div class="proposal-list">
+  {% for proposal in proposals %}
+  <a class="proposal-card" href="/moderation/{{ proposal.id }}">
+    <div><strong>#{{ proposal.id }} · {{ proposal.article_path }}</strong><p>{{ proposal.summary or 'Izoh berilmagan' }}</p><small>{{ proposal.submitter_name }} · {{ proposal.created_at }}</small></div>
+    <div class="proposal-meta"><span class="badge badge-{{ proposal.status }}">{{ proposal.status_label }}</span>{% if proposal.claim %}<span class="processing-note">{{ proposal.claim.moderator_name }} qo‘llamoqda</span>{% endif %}<span class="diff-stat added">+{{ proposal.added }}</span><span class="diff-stat removed">−{{ proposal.removed }}</span></div>
+  </a>
+  {% else %}<div class="empty-state"><p>Bu filtrda taklif yo‘q.</p></div>{% endfor %}
+  </div>
+</section>
+<section class="form-card article-review-index">
+  <div class="section-heading"><div><p class="eyebrow">Review queue</p><h2>Maqolalar</h2></div><label>Qidirish<input type="search" id="article-review-search" placeholder="Sarlavha yoki yo‘l"></label></div>
+  <div class="table-scroll"><table id="article-review-table"><thead><tr><th>Maqola</th><th>Texnik</th><th>Til</th><th>Upstream</th><th></th></tr></thead><tbody>
+  {% for row in article_rows %}<tr data-search="{{ (row.title ~ ' ' ~ row.path)|lower }}"><td><strong>{{ row.title }}</strong><small>{{ row.path }}</small></td><td><span class="badge badge-{{ row.technical }}">{{ review_labels.get(row.technical,row.technical) }}</span></td><td><span class="badge badge-{{ row.language }}">{{ review_labels.get(row.language,row.language) }}</span></td><td>{{ row.upstream }}</td><td><a class="button button-secondary button-small" href="/moderation/article/{{ row.path }}">Review</a></td></tr>{% endfor %}
+  </tbody></table></div>
+</section>
+<script defer src="/editor-assets/moderation.js"></script>
+{% endblock %}

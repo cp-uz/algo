@@ -1,0 +1,12 @@
+services:
+  editor:
+    build: .
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - cpuz-editor-data:/data
+    restart: unless-stopped
+
+volumes:
+  cpuz-editor-data:

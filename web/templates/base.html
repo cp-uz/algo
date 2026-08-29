@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#1676d2">
+  <title>{% block title %}CP.UZ tahrirlash{% endblock %} · CP.UZ Algoritmlar</title>
+  <link rel="icon" type="image/webp" href="/assets/favicon.webp">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/editor-assets/admin.css">
+  <script src="/assets/mathjax-config.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script defer src="/assets/site.js"></script>
+  {% block scripts %}{% endblock %}
+</head>
+<body class="editor-shell">
+  <a class="skip-link" href="#main-content">Asosiy matnga o‘tish</a>
+  <header class="site-header">
+    <div class="site-shell header-inner">
+      <a class="brand" href="/" aria-label="CP.UZ Algoritmlar bosh sahifasi">
+        <img src="/assets/cpuz-mark.webp" width="44" height="44" alt="">
+        <span><strong>CP.UZ</strong><small>Algoritmlar</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menyu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Asosiy navigatsiya">
+        <a href="/">Maqolalar</a>
+        {% if user %}<a href="/my-proposals">Takliflarim</a>{% endif %}
+        {% if user and user.role in ['reviewer', 'moderator'] %}<a href="/moderation/">Moderatsiya</a>{% endif %}
+        {% if user %}
+          <span class="user-chip">{{ user.display_name }} · {{ user.role }}</span>
+          <form class="inline-form" action="/auth/logout" method="post">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+            <button class="button button-quiet" type="submit">Chiqish</button>
+          </form>
+        {% else %}
+          <a class="button button-primary" href="/auth/github/start">GitHub orqali kirish</a>
+        {% endif %}
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="site-shell admin-main">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="site-shell footer-inner">
+      <p>CP.UZ Algorithms · Moderatsiyalangan ochiq tahrirlash</p>
+      <p><a href="/attribution/">Manba va litsenziya</a></p>
+    </div>
+  </footer>
+</body>
+</html>

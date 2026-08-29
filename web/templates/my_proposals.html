@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Takliflarim{% endblock %}
+{% block content %}
+<header class="admin-heading"><p class="eyebrow">Hissa qo‘shish</p><h1>Takliflarim</h1><p>Yuborgan tahrirlaringiz va ularning moderatsiya holati.</p></header>
+<div class="proposal-list">
+{% for proposal in proposals %}
+<a class="proposal-card" href="/proposals/{{ proposal.id }}">
+  <div><strong>#{{ proposal.id }} · {{ proposal.article_path }}</strong><p>{{ proposal.summary or 'Izoh berilmagan' }}</p></div>
+  <div class="proposal-meta"><span class="badge badge-{{ proposal.status }}">{{ proposal.status_label }}</span><span>+{{ proposal.added }} / −{{ proposal.removed }}</span><time>{{ proposal.created_at }}</time></div>
+</a>
+{% else %}<div class="empty-state"><h2>Hali taklif yo‘q</h2><p>Maqola sahifasidagi “Tahrirlashni taklif qilish” tugmasidan boshlang.</p></div>{% endfor %}
+</div>
+{% endblock %}

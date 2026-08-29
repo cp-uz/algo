@@ -1,0 +1,2453 @@
+{
+  "schema_from": 1,
+  "schema_to": 2,
+  "article_count": 163,
+  "documents_changed_only_by_front_matter_and_generated-section_cleanup": true,
+  "articles": [
+    {
+      "path": "algebra/binary-exp.md",
+      "original_file_sha256": "bb29adc39f18db2e360bdf564a9d8c7a87133a7d4faa5eb3b021262d575f9b43",
+      "original_body_sha256": "05bf299be198d4feef4150849d96208e686286410b482d1639c888edcf6db234",
+      "canonical_body_sha256": "37302a51b58f8c7f799775b5df5df02588dd161697671dd023c5b47c8eb63727",
+      "migrated_file_sha256": "ebb88bf01209010d8a06e96522412e378b07a8787e956e798913c9f3b85ca2fc",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ikkilik darajaga oshirish",
+      "canonical_title": "Ikkilik darajaga oshirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/euclid-algorithm.md",
+      "original_file_sha256": "f67e50daf2e8567aab16efb8a17f24392eb837a8c27904e1c58376e7ef4e65fd",
+      "original_body_sha256": "200fb52c353ed905e4122d7344029b0214661326b88a95fa56808d85f709df5b",
+      "canonical_body_sha256": "186e9d363ab5820923a975fd1b30d92a87483074c9a45730f0d7049545c0e2b4",
+      "migrated_file_sha256": "1eba9c0cc12c12a4538e9b8f0769f8563bd8b3b4d40721dd40cfd395abf78877",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "EKUBni hisoblash uchun Evklid algoritmi",
+      "canonical_title": "Eng katta umumiy bo‘luvchini hisoblash uchun Evklid algoritmi",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/extended-euclid-algorithm.md",
+      "original_file_sha256": "eb8e6ca4faa17345b989e62b75d154df8c65de833b784ebc33dece7f4b1688eb",
+      "original_body_sha256": "ab88bc6ce9f3f3f05b131a9fa5ff818297b555135d1f8950dea833f5f3f078b7",
+      "canonical_body_sha256": "997874c4e20d246a6c8a8284234cdab7dc4ba1d03b4af7cb988b748995616491",
+      "migrated_file_sha256": "15950930b1543ded6222dba936c1e8bb50e3c9fd050ad3c586e0a90447726361",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kengaytirilgan Evklid algoritmi",
+      "canonical_title": "Kengaytirilgan Evklid algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/linear-diophantine-equation.md",
+      "original_file_sha256": "e40958d1bcf929d2906ba416dec31b985e14b0b15f0809e2792dee2bbb1b31dc",
+      "original_body_sha256": "a975f7dbd09e4319111a22be024c19ce23f89e5856e848a97ae6ed47405ed333",
+      "canonical_body_sha256": "c3add3b4aaef37832e0a22eebaa42c2726679a5ba798322fa1bfeff8ae9898b5",
+      "migrated_file_sha256": "14bdf32bba41cab0cda554d5a45a99126b56e96a297ea6421a80dc84568f1691",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Chiziqli Diofant tenglamalari",
+      "canonical_title": "Chiziqli Diofant tenglamasi",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/fibonacci-numbers.md",
+      "original_file_sha256": "9a65e3a75b6606c47f64d89747741207d729e7d34f755f4082d7d4884abc0e9a",
+      "original_body_sha256": "1b33c967e550f0de5e20bcacdb523b60f450c57f057a217add9b4bf04ece8d20",
+      "canonical_body_sha256": "3419f6bd6ae954d7c1a60acd4ab1a76e44cfaed558d8e27689241660d3db5555",
+      "migrated_file_sha256": "fa8a1fceb12a4a7d50597d2b679e6cdbd14cb59c39245667f6e569d4d008e41b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Fibonacci sonlari",
+      "canonical_title": "Fibonacci sonlari",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/sieve-of-eratosthenes.md",
+      "original_file_sha256": "fa0b2c1f16d218a5fa21c1b13e0828ea2649a182875078f14214ac53b1872d00",
+      "original_body_sha256": "2d92215ed9fe8ccd6cf7bdc8afcb7e4c77b0e137ef7733b5b46bbdbbb04c7236",
+      "canonical_body_sha256": "47809fa6f61b85991a948dfb97af7362a058e4896e982e318ac6d10101fb0408",
+      "migrated_file_sha256": "93e67c11f005731cf942a3e91f5d90cd3b086b1a78aff69a601cec5f7f01813a",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eratosthen elagi",
+      "canonical_title": "Eratosfen elagi",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/prime-sieve-linear.md",
+      "original_file_sha256": "53acbc846e2d8638af359c09a2974f3130a0e330c0fccdfe193ea55953a940b4",
+      "original_body_sha256": "2492b86221b5b8f4fd9286988c526f92fd35c566d142c660a160c96dec910d62",
+      "canonical_body_sha256": "52ede6335ad298f56797371419aeaa6f9f0e78d94c5718b387c7f9ed9894e9e6",
+      "migrated_file_sha256": "cb371058235533fcc2c7ca2050875f724a15167ad6ccfc1ee136af0e3d392379",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Chiziqli elak",
+      "canonical_title": "Chiziqli elak",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/primality_tests.md",
+      "original_file_sha256": "1ddc5a8e3f9963ba6f4585fcab4079f921dfb67debd270fefb8ea17fc73b9822",
+      "original_body_sha256": "e136f889c3af84e944e1bb9ecacf6250007ce348f0030f9c128c5c6622eccec7",
+      "canonical_body_sha256": "5b310fc0872c0e828ad2438b72aff375fa69b34e7b745a12ae887d07af8b87c0",
+      "migrated_file_sha256": "c0fc99b3e46864109db786f93f302ea0ea4d76f36855bf90fde182227ec7c5db",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Tub sonlikni tekshirish usullari",
+      "canonical_title": "Tub sonlik testlari",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/factorization.md",
+      "original_file_sha256": "b4247311be09cb6dc4a4ccf093b10427a2855f139f006a8480510308a3849085",
+      "original_body_sha256": "1174696e74d7c8e9d56bc6892c1679c9d9e4f5daf95152c59c7cd5f5658736a2",
+      "canonical_body_sha256": "066348318129e3f684b66869191ff43a467041a8cb0d9261847d77ae5d87d4cf",
+      "migrated_file_sha256": "940d1fa9d1d212a464c886930adca55df612ce2541b3a4358527a7844098c072",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Butun sonni ko‘paytuvchilarga ajratish",
+      "canonical_title": "Butun sonlarni faktorizatsiya qilish",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/phi-function.md",
+      "original_file_sha256": "09f6b73135879249470316efc1c3879e96591696e45b14b1d3b5455f3a7b5f34",
+      "original_body_sha256": "c3cd8c02bff7b239c8ead3053ed4e0079960c521a746e167a686a56977803f76",
+      "canonical_body_sha256": "d65bfbb89c97a9ffe0c46473a6f1b8eaea4154a1b386216ffe89004c0c5a0ae0",
+      "migrated_file_sha256": "ac21cd742b66ebe4d1e91b127d46f3cfc828a4108083c26a88ad0b873004fc27",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eulerning φ funksiyasi",
+      "canonical_title": "Eylerning phi-funksiyasi",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/divisors.md",
+      "original_file_sha256": "a3569d94ba8b2b4c6b4cc5c256dc217e0413d23b22033bcd5b7202612eb17820",
+      "original_body_sha256": "bfe5b6f143f068e4ea759e9e72c6717c5b375a4d146b23e48da946e089ad24fe",
+      "canonical_body_sha256": "13feb091d62f01a85fef0b87a695dad0ce68cf16523e6a281e3a4014b4d210a0",
+      "migrated_file_sha256": "33d89f9f928e8f549e14430b60dff158032b778725231cc6aabc535dcdbb3fda",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Bo‘luvchilar soni va bo‘luvchilar yig‘indisi",
+      "canonical_title": "Bo‘luvchilar soni / bo‘luvchilar yig‘indisi",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/module-inverse.md",
+      "original_file_sha256": "e7c0299d0a1938a7b737ca480de1ce322b4f078349760ff2b6ddb4b1710c80c4",
+      "original_body_sha256": "6c70d711c4cc8c9374201f688cbb64be7646b3dd096f981725909eefae38c56f",
+      "canonical_body_sha256": "f4c1731275166c9f0a3dca0af38cb10198c9c941a40578df5a893fc19356af1f",
+      "migrated_file_sha256": "94ac5f07d626d9876e0aa6c035251e9376c23c381e69dfe519b49a7999600ea7",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Modul bo‘yicha teskari element",
+      "canonical_title": "Modul bo‘yicha multiplikativ teskari element",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/linear_congruence_equation.md",
+      "original_file_sha256": "0c5fd62f7cab642c7846eeb7b1fb9215d04631c7e96cd264cef0b6347b6be2d4",
+      "original_body_sha256": "581fbb8c7762c8826c5ab753aa9793a330db0c59b080b5fffb00512376a2ee5b",
+      "canonical_body_sha256": "22bea94b2e2899164c677e85faa93544c93d2c75c1e0856bc4919ce88275f593",
+      "migrated_file_sha256": "57a8c5130d17cd75204ab1d5b768b4ae4480aadb0cccccb9b49d72936de80392",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Chiziqli kongruensiya tenglamasi",
+      "canonical_title": "Chiziqli taqqoslama",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/chinese-remainder-theorem.md",
+      "original_file_sha256": "ea8e6e906b4d1556d92bd6732ac867601e7bce4d57e58d051dfd682302b7938c",
+      "original_body_sha256": "2dc8d721141422979ecb60610e216ea9ce9588d8d30dac8d3b27eef512d3cf6f",
+      "canonical_body_sha256": "7bb564053df60bde7370980d30865bb0df7ea2dc43ece63fb6e0e4e44f1f99de",
+      "migrated_file_sha256": "4119355993d164b14e3c76b1c8911519999cb03accd8c2fcf90c656af1c4ab0e",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Xitoy qoldiqlar teoremasi",
+      "canonical_title": "Xitoy qoldiqlar teoremasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/garners-algorithm.md",
+      "original_file_sha256": "a6c3e9b2f691f81a6997c60f4896d4ad55c8aff2e4a2f6fdf8875240fda20240",
+      "original_body_sha256": "0fa9ab21437bb9b3c718aaabdbddc4ca4de052926843f7268f90a07795445e8d",
+      "canonical_body_sha256": "00ea5ba55fb50b684402677bafeb78d148c435aef02e2468f6f385ea35535c5a",
+      "migrated_file_sha256": "a9f91f58c0a3e537e5a9dcfd199ff7adb1563a8b73d33cadf535e2f377b82608",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Garner algoritmi",
+      "canonical_title": "Garner algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/factorial-modulo.md",
+      "original_file_sha256": "7c7e1c99004a9a7c459e3273c28ad7c23ef70dc21c35087c48c6a5e970370f49",
+      "original_body_sha256": "592c88f4e788104bcc714a8219e0bc30d8eae8693e6ffed6fec2803fc296cd58",
+      "canonical_body_sha256": "ad93bddb8c647a9317089628759fecab8727dfafc0cb3d16a02d07d8b52f8de4",
+      "migrated_file_sha256": "a77ffd0bc3fd3083d54d2fce1bc9d110b0b7e3376ef153aa37478b35ead20a4b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "p modul bo‘yicha faktorial",
+      "canonical_title": "Faktorial $p$ modul bo‘yicha",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/discrete-log.md",
+      "original_file_sha256": "9d0d82c5ca7d21bfb8ae51dad219738960c5eca30d75a9f60f20ab5923772af8",
+      "original_body_sha256": "da0500c04782224ca84eece090b792fbfc94238b1dcbf056cd0cf50dfe95c05d",
+      "canonical_body_sha256": "f969b2131515ba338499ded78a28c2e9b060edbf7f5bdd3d8acb7e78541e218d",
+      "migrated_file_sha256": "fc364b37be78550b793c4fadc62aa8cdefa37a89519eba9bb6f267691ae2a229",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Diskret logarifm",
+      "canonical_title": "Diskret logarifm",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/primitive-root.md",
+      "original_file_sha256": "03010bf013d150743b455d05e459bf74152c32a323a0e992778e4e95c451f172",
+      "original_body_sha256": "6d448b7e0117a3b58af2a6580cda0b0c27a5463fa1822081ebe4cdbe9b6536c6",
+      "canonical_body_sha256": "70a6cdc02a43565829877b168745268ec0c3a7134c59f92ba84f7caff8bf9562",
+      "migrated_file_sha256": "3220098c3c9b75f64fdd6616f5cbde241bf4123545115681a10df0b93f2fd57d",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Primitiv ildiz",
+      "canonical_title": "Primitiv ildiz",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/discrete-root.md",
+      "original_file_sha256": "08050e007fca4e326a2a2605377e138b0e2cec59622477f08b982ac424e1401c",
+      "original_body_sha256": "2e822bad3058a507a255e47e249b34a8d0f29d1d9e4fccc800088c688f5fc13a",
+      "canonical_body_sha256": "a6de08b92c71267e0ecdf7d193f19a50716feee52aae67c9a1d8dbfb6ca6e0a7",
+      "migrated_file_sha256": "a227e2dd5fe589d7b4134c7639bab55f5a67774a4e2a5896c68ed50e7545677b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Diskret ildiz",
+      "canonical_title": "Diskret ildiz",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/montgomery_multiplication.md",
+      "original_file_sha256": "0320d83ee65abdde4fc677ba72a105bdd3c62e6c6292ac64999c53d291e415b7",
+      "original_body_sha256": "6db81111545abcbaf877660cefb41c478c04617f4c76d203f3ad1d0a5bc9dd82",
+      "canonical_body_sha256": "030cdb4b2a2242728db0ea76409685fd8a8f8219d641f14383973e59122c69ad",
+      "migrated_file_sha256": "0e4e06cb076ff012cb2623ff831159b3962cf76b65077a9c9abc9dd4a323055c",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Montgomery ko‘paytirishi",
+      "canonical_title": "Montgomery ko‘paytirishi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/balanced-ternary.md",
+      "original_file_sha256": "537f4d7666926c9d442b7c5971f9a026fb1f4bc4e1ead45773955fff6bbdf666",
+      "original_body_sha256": "927a053c5f9bcddfd449168d0c33904d799d58daea55250a6ab126e41bbef8d9",
+      "canonical_body_sha256": "42cf6f2e8a9411936bb3432b33bf4b0b61fb75dca3af66ac45d6f9d9927edbc9",
+      "migrated_file_sha256": "8828480e6bd3fff080efc09ebe1c9c584858e71fa0e46dad4d76cc461cec50ae",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Muvozanatlangan uchlik sanoq tizimi",
+      "canonical_title": "Muvozanatlangan uchlik sanoq tizimi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/gray-code.md",
+      "original_file_sha256": "95ab277fff0ec32bbaab87d460fdd3d335de0840ce2c99b1b9a92a19f1721929",
+      "original_body_sha256": "7c12ed9ca15292964ab37aaded8cb0c5aa64ee76a08529973e07a7f076730b63",
+      "canonical_body_sha256": "2ef81a95304bb6588bc29872204a68eec41ba0e7ec4a6985c73787516f10e877",
+      "migrated_file_sha256": "9e75b340975773c079fb6cae79b1fe7a75f692507a1406c1231fa08cc3bd71ec",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Gray kodi",
+      "canonical_title": "Gray kodi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/bit-manipulation.md",
+      "original_file_sha256": "0aeb5a1dcb2a844d713082011f6f777d6f565ab5dc13b0afc794664769421bf1",
+      "original_body_sha256": "084580965f3acf813592ff31495595f841ea211c609dd12f953d0bbb83ec5bb7",
+      "canonical_body_sha256": "4f4d88af361194f61ad70f67df8234cd8d88e84de832e9b2ac4ac72f882c54ce",
+      "migrated_file_sha256": "5d9e14d842d6527c7d5ecd4bd23e56c080ae4ebb2a61ae42617ee0e3e6399a56",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Bitlar bilan amallar",
+      "canonical_title": "Bitlar bilan amallar",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/all-submasks.md",
+      "original_file_sha256": "abf4becc48ed620e90adce91f219eda28bbdd121e81e27bfee17e687432f5b66",
+      "original_body_sha256": "ecec48f60196f30e55eec4f2741e9c09bf314601ec2765424fc8b9f22cb4b96f",
+      "canonical_body_sha256": "cf3758449009e3d37fde2f14d9563513a3f18b3f9fdd2ea7d574705d080d6eb5",
+      "migrated_file_sha256": "4cdf50092ca43ad5f27b0e30b1a065e4d6e9124e11c629d6a58ce378eb1158f5",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Bitmask submaskalarini sanash",
+      "canonical_title": "Submaskalarni sanab chiqish",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/big-integer.md",
+      "original_file_sha256": "32d37999f67e15db20c98414752584427ad857fd90a4cee985793ae47acd81d7",
+      "original_body_sha256": "99e0b7c67893411c8270227db89c1edd04fd68caaf4ec20effb4cefc3634b07b",
+      "canonical_body_sha256": "c63716fa4c946e2e1eb43709e7ae4181b2b424773bbd5009692f09cfc6c48c4f",
+      "migrated_file_sha256": "1ca84068fed55a25f0493fab9a3ddab857efc7688c5c55d6f4b69e75675a833c",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ixtiyoriy aniqlikdagi arifmetika",
+      "canonical_title": "Ixtiyoriy aniqlikdagi arifmetika",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/fft.md",
+      "original_file_sha256": "7449bd4111a3a48ba23707a5399da31eead8d5160c64c2bdf6e53614a45b65cc",
+      "original_body_sha256": "2f52c1d22b0208fbd0bb3f1bd52d554dcd3ed1459a27f3243d2c06e1f26678fc",
+      "canonical_body_sha256": "e2f6987b87ff5d52361669ec8e9df3f7f37d05353a487fd5a37d0358af2f3795",
+      "migrated_file_sha256": "2bf700c05426d51ee165df970fea676dbb8e0d1fde9df61ab36c26ba591a3c80",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Tez Fourier almashtirishi (FFT)",
+      "canonical_title": "Tez Fourier almashtirishi",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/polynomial.md",
+      "original_file_sha256": "8aa9e7ca85c7c6e52fd56e4294bccdc6a318cfa28bed8b1a5b7b13020cf13eee",
+      "original_body_sha256": "5b1053fdb445eb16ad9e3285445d09a9bf4108887326466b7297faf549a6b27b",
+      "canonical_body_sha256": "7fbc7857f2a639ead4e8dada15d11e0a49a8ad3fa15adaf1cf47846e67f46760",
+      "migrated_file_sha256": "788d7fb670951e4f7688b57681f59f03758e10299d9505d6d5b4a31d201ece50",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ko‘phadlar va qatorlar ustida amallar",
+      "canonical_title": "Ko‘phadlar va qatorlar ustidagi amallar",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/continued-fractions.md",
+      "original_file_sha256": "7f5fcd5a0290e1f5571d615d3b8ea0346d915d6dd2e40f2970968416fdee6b0a",
+      "original_body_sha256": "8f03066909c2a5aec8091510104bae869f6f96b3b4fa2194dd2318b9029828cd",
+      "canonical_body_sha256": "fc118f4cac62b184b99f34a8b9f50e2e181b082d3baa1253148f232ddaeb46b8",
+      "migrated_file_sha256": "c5d2c73ab2f69eb092ae6ded8d8f6b345b403c92339f7590864475ac81ff657a",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Uzluksiz kasrlar",
+      "canonical_title": "Uzluksiz kasrlar",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/factoring-exp.md",
+      "original_file_sha256": "b62fcdad74bf4e1d3a35aeb8d5da91ae15cd8fda41de3f851fcabb35e054a548",
+      "original_body_sha256": "9db2cdbdc6cfdb0fb125980c7093fc3e6e0ca3c83142e96da0dee7ed024c29ed",
+      "canonical_body_sha256": "2640df68b31de0a7a8293ee13b0500836eef3bd04c1de36ae502dee05082d98c",
+      "migrated_file_sha256": "0179279c99cb2dd0daa439a759b79750bef1616a7b6360ed87b5e68c0760ecad",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Faktorlash orqali ikkilik darajaga oshirish",
+      "canonical_title": "Faktorlash orqali ikkilik darajaga oshirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/stack_queue_modification.md",
+      "original_file_sha256": "431e7c73636c7856572c9cb06eeab3e8a4280410b8e51f90b0f5bda3d127a237",
+      "original_body_sha256": "c55a22b2abb3fccc3bae2d59500dcebe95e84fe8461614c70f28b17a3930716e",
+      "canonical_body_sha256": "337a10d134fe46350769b736d8ce8708d6ff4bed87d32b260ccfa6a9f7d463e0",
+      "migrated_file_sha256": "90c58ba14fc1de4bf734e1115555d555decdfd8c95358721a59bc381fe9306e0",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Minimum Stack va Minimum Queue",
+      "canonical_title": "Minimum Stack va Minimum Queue",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/sparse-table.md",
+      "original_file_sha256": "5c4b2b762443d97340caf4b0605775a477a7a67fe3c109c366d41df9d1012c86",
+      "original_body_sha256": "fb71d025d149cb1e961bc24ab9391634ed336ccba3eed2c1ca5ef7c6b2e97442",
+      "canonical_body_sha256": "6a453c48dd620013ed6cad67de0c41089c7db126bab94eaa1b490ebedcb0fdba",
+      "migrated_file_sha256": "d27ff6e379d09369bc3329830a35e7b9907565ce07ac04e4873fcfa2fc6b1df5",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Sparse Table",
+      "canonical_title": "Sparse Table",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/disjoint_set_union.md",
+      "original_file_sha256": "4ff76ec2f0d9037a8c4ae6daf9e6028954db80ed0dbe4ffa25ca39048aebede0",
+      "original_body_sha256": "ab8682369e1532a29c206d78309a692854202bcb2624582241c20f164ee4d545",
+      "canonical_body_sha256": "67e145c0fad43e47632796ee5dd08ce982ef8d95592d4ec63de6d5cd536a6743",
+      "migrated_file_sha256": "2ef32e926667a38d7eacc94ebeefcfd52455006323644da5ba082a6ecdca3660",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kesishmaydigan to‘plamlar birlashmasi (DSU)",
+      "canonical_title": "Kesishmaydigan to‘plamlar birlashmasi (DSU)",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/fenwick.md",
+      "original_file_sha256": "6cad68301d5c69bd45a6dd4982ca8e66723c13459ec42c2baf825acd4db2da1e",
+      "original_body_sha256": "d7a334f0dbe376d08a68726c0f9a24dce154eb705b8245625ccdf0cb004cd167",
+      "canonical_body_sha256": "dda2e029edff7edf393c00176de33748193666691caeaa40af8a20c76bc3b7dd",
+      "migrated_file_sha256": "f679945486f275c864b541871f1dc5c7d02945566648598b7c93fc27234e1dc2",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Fenwick daraxti",
+      "canonical_title": "Fenwick daraxti",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/sqrt_decomposition.md",
+      "original_file_sha256": "8833c948f87bbe67073827e1a979bc2432cb07ce62df26a986769d507f6233f6",
+      "original_body_sha256": "4ad572e105860a2ea2138713ef49fb96ceae15ba97918bfdd694494925cc0a07",
+      "canonical_body_sha256": "db49c55e9de6c31536e183559c508c483f1676049aa7a540408cdc9837cc5f53",
+      "migrated_file_sha256": "30a5054f56d432780724a5a3d7f09eb7de505538702ca69a2dc9ec8fe9129732",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Sqrt Decomposition",
+      "canonical_title": "Sqrt Decomposition",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/segment_tree.md",
+      "original_file_sha256": "231caaa0acf9eb1e80024dd1445f2f6eb4162be1652589a938c83c49421c7291",
+      "original_body_sha256": "cb3f2799d9ba56329ece53e5a9a41167323b75a4ab14d820fcab6b5080bdaa14",
+      "canonical_body_sha256": "0d0bc83368ddac36b1ebb4e3a8ce9105ebf8331dcbc0f5082ae29f80001956e5",
+      "migrated_file_sha256": "1cca219b83540420a01f9db1bf3a27c856d2eb3a8c0cf86938c9b5aed4d47c14",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Segment daraxti",
+      "canonical_title": "Segment daraxti",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/treap.md",
+      "original_file_sha256": "800174f51d0d13f1bd68bd70c7810c283748cddbac4cb59340ceb83b77733be5",
+      "original_body_sha256": "e04afa892302be3e6bbe3476506b846db596bd7e36856b958cf06166ff6a16a0",
+      "canonical_body_sha256": "3db7c4429c42acd7fb1b255d3e870a9704a438775ae7742cf9c70d7c7ce3d698",
+      "migrated_file_sha256": "c7f8ebea7fcee8514fc5f2dbb0a037361f32304275b97343d92dff949bff2421",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Treap",
+      "canonical_title": "Treap (Cartesian tree)",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/sqrt-tree.md",
+      "original_file_sha256": "299ecac12d95d8b63b4826dea1bdc6f6f82f9ae745240fd1fb7ca43db8e6b7ea",
+      "original_body_sha256": "352095c5fa4e36436e4bbb8e383a5cb9871900f25249ab347e78f639209a443f",
+      "canonical_body_sha256": "c883bd02551ff8f7edf75ba4808ae58252f2efe089d69ad49796f20156d9d883",
+      "migrated_file_sha256": "0e06ef002b287d9b16626811b1a39d94ff83d8249e963951c0bf981a6e42b60d",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Sqrt Tree",
+      "canonical_title": "Sqrt Tree",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/randomized_heap.md",
+      "original_file_sha256": "5d5f5cfc533a63a402ce1f85be47e489f1c299c9f27f3e348798d514aaa9a9b1",
+      "original_body_sha256": "ad6c9e5a8b813167bb392b89b51803f9c0d20c7184885e2642b5951435a41df0",
+      "canonical_body_sha256": "c8f19e00d8cfecf2cb655423eb73b44ff7365dc7fa2975ad456fab9da50c7bdb",
+      "migrated_file_sha256": "5dfa68df747b42c32a79aa98656bb7d12278418538cb8048e428797c0cc056c6",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Tasodifiylashtirilgan heap",
+      "canonical_title": "Tasodifiylashtirilgan heap",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "data_structures/deleting_in_log_n.md",
+      "original_file_sha256": "2ca2e47843821d0561fb1aff4032c4b10c4df7b5c1ae212f82bc2aa9e021cfb4",
+      "original_body_sha256": "7e0b8b44a885e2b031fcf77caa672ab2bc6050452a01ae01d55fa96e849321f9",
+      "canonical_body_sha256": "4f1b9ee32df78b3b7778eeea612cdf52b7f7f7c1504bcbff80c6055f94af1774",
+      "migrated_file_sha256": "b109a9bd85d2ba3e6a3c8dd84b7d37e36621f23be54554fc7ae3b682ed96bc96",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ma’lumotlar tuzilmasidan O(T(n) log n) da o‘chirish",
+      "canonical_title": "Ma’lumotlar tuzilmasidan $O(T(n)\\log n)$ vaqtda o‘chirish",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "dynamic_programming/intro-to-dp.md",
+      "original_file_sha256": "9f7ef0d8e4de41cdf3e1d82ce6c5ed3113ba126b11ebba535528b6c8ccd288a3",
+      "original_body_sha256": "26a7e019654560dbb81502928baca62ffff966110010304403eba529a514a7ae",
+      "canonical_body_sha256": "a0bd91d94fe37d5e965a58aa7d2b2a5c16fada1f48a529cdd61c9b617398ec01",
+      "migrated_file_sha256": "ab09836692eaf1edf081f78f91e4d75b0a60fc86e5af1212b627136e33775308",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Dinamik dasturlashga kirish",
+      "canonical_title": "Dinamik dasturlashga kirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "dynamic_programming/knapsack.md",
+      "original_file_sha256": "3a808974c8aa506b8852726654662b7cfe319ba5ca187359a4a423f73f5322b1",
+      "original_body_sha256": "10d64189a48a09ee261869bea223198155b1cd1f71fe99877566f10a14852b27",
+      "canonical_body_sha256": "63784383595fd677a50421dff2371378c3196cc96efa59a30440b628f745ea52",
+      "migrated_file_sha256": "7929d607e76de218f107fbf812ca7324f44ff404815922730b151dadb8781b0b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ryukzak masalasi",
+      "canonical_title": "Ryukzak masalasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "dynamic_programming/longest_increasing_subsequence.md",
+      "original_file_sha256": "8ec8e73c3732b9f0c5b6f3f605f1344e8bf9f08873206b52f9d40e1c2c63fbc6",
+      "original_body_sha256": "7750e6bf357b3bfaa74858c9e62c1482a6ca5c46d66baf421d12cc5add4eaee4",
+      "canonical_body_sha256": "a50470e29a6dedd0a05b0a2b2fe09ed0ac5247df98e042be1c6e5de37059d886",
+      "migrated_file_sha256": "374a14af4350dee029852ba131651167bf32f88d3b943f20e3323880af9cc0fd",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng uzun o‘suvchi qism ketma-ketlik",
+      "canonical_title": "Eng uzun o‘suvchi qism ketma-ketlik",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "dynamic_programming/divide-and-conquer-dp.md",
+      "original_file_sha256": "b48732bcf2d6ac4a22d9b7c6e11dbdc06d76b1344e5f255c3806b75c753e3db6",
+      "original_body_sha256": "f7315b1efb1e5a41f9bcd12a1afc92f1dbc607a76350b19363b415cf67ac412f",
+      "canonical_body_sha256": "892d6dd6f5f994f3e3a5b9892687b1ac6289a84f5507d520877bec5e879fb826",
+      "migrated_file_sha256": "a5c0a1135ef4028b710ef7a8ee8e6b2e0bdb489ef1df9d25226de72eff2be9fd",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Divide and Conquer yordamida DP optimallashtirishi",
+      "canonical_title": "Divide and Conquer yordamida DP optimallashtirishi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "dynamic_programming/knuth-optimization.md",
+      "original_file_sha256": "506149b53d1b7df3e6f4a45616882735ddf7edd988b01ef24eba249897e6141b",
+      "original_body_sha256": "e97c95cc03fddd9350498e7f1024572b27e82f0b230dd667764e9b3d79edad00",
+      "canonical_body_sha256": "3afd6b570b4f7e531b997c9e27650fe9338d1650e5306f810064e78f9d4059fa",
+      "migrated_file_sha256": "2912f0b48c9e70ecd62c815bfd2252d29135992755434190b34e46e6765511a2",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Knuth optimallashtirishi",
+      "canonical_title": "Knuth optimallashtirishi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "dynamic_programming/profile-dynamics.md",
+      "original_file_sha256": "0adec037ae506c69fe76d78e2e236ea821f4c1dbf67e814275bdc6684746baac",
+      "original_body_sha256": "df5d9aa05fc7cbc35f6f7c6518e083b540c70b6e099b40e55723835b6543803d",
+      "canonical_body_sha256": "dfeb4e6fad69ce4db4dd2a0ff4e0cacfcdb545fca08013c65e6299af10cf123f",
+      "migrated_file_sha256": "7685c52728a4f0d692393edcecc99d9d5af2925d2570885df84385aab6e3e171",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Buzilgan profil bo‘yicha DP: “Parquet” masalasi",
+      "canonical_title": "Buzilgan profil bo‘yicha DP: “Parquet” masalasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "dynamic_programming/zero_matrix.md",
+      "original_file_sha256": "74ccb9ba450db216478d10aacec5d9aeb5677e012817bf01c58c00f94634f967",
+      "original_body_sha256": "b6f99555a948e66933fef2181224c9fb428833fd344cf7c217eca3bfa606c4f7",
+      "canonical_body_sha256": "f3def5e903e661f72e89e37abcc2ce806a2050a1894d9622e52e4188c1ed1c1a",
+      "migrated_file_sha256": "39c1656d196362e22d646001ebc794b05dfed766d1956b16f1ead8250aa75112",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng katta nollardan iborat ostmatritsani topish",
+      "canonical_title": "Eng katta nollardan iborat ostmatritsani topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/string-hashing.md",
+      "original_file_sha256": "642e82f502e9041b3e14704c9798777057cda358131eb1e4a955addb65f51848",
+      "original_body_sha256": "afa7300444e73ff1428dfea1c532b49c14140c1ba8d09613684cb285429a0825",
+      "canonical_body_sha256": "0375301a2921345bb3f65981ed4d3765b3366e5d51d976072a73dae2b17cc42d",
+      "migrated_file_sha256": "deb1398c040513f92ab29ab7f1d004cc900866fc13ec85eb72514e99566089bd",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Satrlarni xeshlash",
+      "canonical_title": "Satrlarni xeshlash",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/rabin-karp.md",
+      "original_file_sha256": "d1284ea8c60fd2d4472b1497342ff834d0a0fd05b00840a67315482e2572bd2d",
+      "original_body_sha256": "5fd0cf242b52725051a290704bf73a2cc1d5ffbebc3b2cbd44e5a7d681859366",
+      "canonical_body_sha256": "c06bf6f4d7bcf0ca1561544d57d2e0c48b135ae486fd800b8004cf520eae6976",
+      "migrated_file_sha256": "71c564fefeaf30dc63b987e96cd813b03659652b72d996c18906f6253fa610a9",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Satrda andozani qidirish uchun Rabin–Karp algoritmi",
+      "canonical_title": "Satrda andozani qidirish uchun Rabin–Karp algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/prefix-function.md",
+      "original_file_sha256": "335fd156dda8119b5fe63844c67fd669efb90e3de10a5649546e4c1c2f9d0914",
+      "original_body_sha256": "70d3ef55794c0e98148b7c0a7f4c528e8f99a59cdeb31becd713ed7a64edf56c",
+      "canonical_body_sha256": "a26d6d7c372aa046a2f353a170950567c409250ced824d8186e33e2e66fdba5f",
+      "migrated_file_sha256": "c406bcd774f07f28d55ad323f475db4696c9afa45817f1ee873b26e9e05dfcf7",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Prefiks funksiyasi. Knuth–Morris–Pratt algoritmi",
+      "canonical_title": "Prefiks funksiyasi. Knuth–Morris–Pratt algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/z-function.md",
+      "original_file_sha256": "91bc6da9cc36a182bfcd3bf46e4b8513f05774527c68c3e31e5988253d26681a",
+      "original_body_sha256": "9e9c6832b921acf4effcf9ae6b5f3e72cbc0946fbc132e3521fd70c73bc43b9d",
+      "canonical_body_sha256": "7ca3445da23edce199085b4399929fd2c58ea83cab33a859c93638b5b443e89d",
+      "migrated_file_sha256": "c87a0e3cb7578990ecf794a113d31894d2c7deb4752ed409663e2a12bb621309",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Z-funksiya va uni hisoblash",
+      "canonical_title": "Z-funksiya va uni hisoblash",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/suffix-array.md",
+      "original_file_sha256": "68552511273741fdacf3ca25f3c34c1b898b7940aefbf97243e236584fe75f88",
+      "original_body_sha256": "87a26c1dadb50c8a0f18380ba0ca98de3f2ca63652f8d10dd049b4c05d68a36f",
+      "canonical_body_sha256": "166ef35b32c57c927f8898f2c6ead2e6a5f8e7c12f9cc6bc69ac636dcf6a0110",
+      "migrated_file_sha256": "88fb0fb9697ed73c011b2e24685c5ce45100bb0c7180844b881ae75877b220b6",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Suffikslar massivi",
+      "canonical_title": "Suffikslar massivi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/aho_corasick.md",
+      "original_file_sha256": "d9e80e2f311cb473a48601bcd6eba6d13851452f45581e798608b44339ef3b26",
+      "original_body_sha256": "4b1f17962e619da7946a142fffbfbd91b01e52c99c3656768eacd3e1fdedef10",
+      "canonical_body_sha256": "f68d0a741c7466ccedc2482ee2777d15d3450c99cfb531b1df2e02475bc479eb",
+      "migrated_file_sha256": "a9187708ec70b2e13dfd60eb2c6977907769f9ed36ec99c6c423c3f0c7997a4c",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Aho–Corasick algoritmi",
+      "canonical_title": "Aho–Corasick algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/suffix-tree-ukkonen.md",
+      "original_file_sha256": "1beaa07399ab75dd45fb51125f8760d16946587c41c95de49265a05f1a31bf4e",
+      "original_body_sha256": "4aa8a9d2e59bfb970d5164542831cacc5b4cbd6cfc1a8923352cd4dada0936df",
+      "canonical_body_sha256": "4fecc54ebeadd8fa5488069f38b84ae64c8a2b503a6a62736912a13dfdd1ea83",
+      "migrated_file_sha256": "8289f787d8e584485e6c890c3a6daebe58018d10dd198290ee04f891a5d41adf",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Suffiks daraxti. Ukkonen algoritmi",
+      "canonical_title": "Suffiks daraxti. Ukkonen algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/suffix-automaton.md",
+      "original_file_sha256": "cca2f344c02e8822158b2b5739fce0b98ec37b4e8183497b3703e15011e50b77",
+      "original_body_sha256": "8a5cb8b37586dfa9d4769db57a62fcf7002f9d1ce7c0778f92ae7fb1bad13697",
+      "canonical_body_sha256": "889daf37a3eacb340f37cc66de412c5f7a681a61454d1cb13f7a0e25747ad70a",
+      "migrated_file_sha256": "89ac6cd684c1ce8530e264b1fae7a3bd7b526d6f359061776fca807cb68a69ac",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Suffiks avtomati",
+      "canonical_title": "Suffiks avtomati",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/lyndon_factorization.md",
+      "original_file_sha256": "cbf0730c9907855f7ae22ded3c8c741a51e5d500eb730b721270c912cac5a93a",
+      "original_body_sha256": "46f5c6d4d89ea216894775a405e7c2670d805d0daf1ef51380bb68d5f838194f",
+      "canonical_body_sha256": "f3385223a8a7515d75539d36fd82b747ca18407741f9c22e734025709a38a7b5",
+      "migrated_file_sha256": "d8010fa56b81890dbe94c783f8341a18c9904794cba2ede11fdbf6ee384d935c",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Lyndon faktorizatsiyasi",
+      "canonical_title": "Lyndon faktorizatsiyasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/expression_parsing.md",
+      "original_file_sha256": "a48e40eab053c579c25dc16146f1087b9292e8fdd11945c1357b217ea645ec2e",
+      "original_body_sha256": "b247095b5c289f9e689b208c35cb9fb7a92aeaa6ebbcf5d4c38963fb4541b152",
+      "canonical_body_sha256": "b43f0b923e4331ccf0576a9304024cc14ce7ff88c5e20ddc8519dd6cbc95c939",
+      "migrated_file_sha256": "b193bebc6b15dba9958322581e3420308957224c23d49f5e0bb0145001910e20",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ifodani tahlil qilish",
+      "canonical_title": "Ifodani tahlil qilish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/manacher.md",
+      "original_file_sha256": "8af8cc46cea0466b3c06e0d8ba6f5c8977776d7418c61d95bf058d71d8505e62",
+      "original_body_sha256": "2945fe2ef3226e06d371009801ab2ed2d72476e17f2422583fe889b3fb6c9ad9",
+      "canonical_body_sha256": "e11413a6c416188ca5ccb7c452536a27f365c7ada7756976d9b7265a9044d4d4",
+      "migrated_file_sha256": "7339b6c81c244652fe1bfa2d2e4ccb741e08eb647ca573d2e7d638c64c695ecf",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Manacher algoritmi — barcha palindrom ostsatrlarni O(N) da topish",
+      "canonical_title": "Manacher algoritmi — barcha palindrom ostsatrlarni $O(N)$ da topish",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "string/main_lorentz.md",
+      "original_file_sha256": "740f3d3a25361f99dab4ef04dc8e4db84d4e1c5228dc33fad7bcb8356b43275d",
+      "original_body_sha256": "410e3930e6cba5b6ad78fb5fc7e5d3983bf4f093a86c963ec1ba509c624cf06e",
+      "canonical_body_sha256": "a296e35486eeca021a53d3f23af27a112d477ae780d66d348444f3358e48f362",
+      "migrated_file_sha256": "2adf111e26657f8febb267fd0aea0132a2a410d57d98f03652cc7ac1884d6bb3",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Takrorlanishlarni topish",
+      "canonical_title": "Takrorlanishlarni topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "linear_algebra/linear-system-gauss.md",
+      "original_file_sha256": "d9dc5df19a04c3e427e55619ee7043e9d993fa25e00c57f86512743214abb934",
+      "original_body_sha256": "ba2d81f8719a158251ab6d8a64e7f4228b382c7468d081a5e49979035930539e",
+      "canonical_body_sha256": "f395e54c0267d05bd05f7a685b2062a00deefb3269b008e087a6e975de0a2ee9",
+      "migrated_file_sha256": "39b6d8105a0e0f172d0ac3c52bd010f3477933e94ec21bbe3929a627d850763a",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Gauss usuli va chiziqli tenglamalar sistemasi",
+      "canonical_title": "Gauss usuli va chiziqli tenglamalar sistemasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "linear_algebra/determinant-gauss.md",
+      "original_file_sha256": "1ef244a0a88a7854b9ebd2ed605245f323a42c41e7400da1c4f37c51d21c9e02",
+      "original_body_sha256": "8bd315037d036d2515044cca7abd270be3f2fa981214283ad66a5b22f3b30e77",
+      "canonical_body_sha256": "337db7df7c4982b1b93d38a4a8ce7ba42de3ac1c781879256107c1a6ce5a9120",
+      "migrated_file_sha256": "142d1301bfef2c85abb6c67342bfc022bcc3b807aff3819f0fcb566cc61ed02c",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Gauss usuli va determinant",
+      "canonical_title": "Gauss usuli va determinant",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "linear_algebra/determinant-kraut.md",
+      "original_file_sha256": "0350a0774b98d6d523d76ee985b7a6f93378dcc390250513d099496a3ac16e5f",
+      "original_body_sha256": "0deb2d80b5f2f1cd25ef6e7cf09782fb8a946619eb657d585916f06ef59f17aa",
+      "canonical_body_sha256": "e3ea4292461c8a77120b27614c47f1973efe277f53b6a5a6815f5f174f7e31bc",
+      "migrated_file_sha256": "1911e850e7148cbfc3064a26c53231d7ab479f0b21e5faaaaca65cbfd504d1ab",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kraut usuli va determinant",
+      "canonical_title": "Kraut usuli va determinant",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "linear_algebra/rank-matrix.md",
+      "original_file_sha256": "c1edc2cff73f79f77d97f23498be315288a8e1c22ab02c0fce7dfd9d3f435037",
+      "original_body_sha256": "e12b9286976260fa2c75ea5e1360a0422c227869604ac8d79c5300cc439664e2",
+      "canonical_body_sha256": "cb48cd950aa18e96c832bea47ea1119aa84ae76a0d48339430302bcdb4507cc1",
+      "migrated_file_sha256": "ec61bc5bb55e284890698045dc656f97fcb6687b99e5b38062f416aa4aeda02c",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Matritsa rangi",
+      "canonical_title": "Matritsa rangi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "algebra/factorial-divisors.md",
+      "original_file_sha256": "3a7fa10a7fc1667c49ae7425a9b70887236f6689716c4945b298e1152b5f76ca",
+      "original_body_sha256": "623d511f53a66ba66bb27cbe2c9557a5bfc86a26e03035bd0a91e28a2f2855e0",
+      "canonical_body_sha256": "5588257735e849b7498869b8a24f096812c7006fc3078352b87c720bf9b89430",
+      "migrated_file_sha256": "505def71b08999a3ded07462ea4eb963a51b8df09915adbd9e864978b6736904",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Faktorial bo‘luvchisining darajasini topish",
+      "canonical_title": "Faktorial bo‘luvchisining darajasini topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/binomial-coefficients.md",
+      "original_file_sha256": "b37d40ea49e8c19ebd80e07ca92d85d23a8fcffb6b6ad36a3b36e9626d549ab7",
+      "original_body_sha256": "e4929fbd9f58971f084aaab4306f32aab21fd26e02fe11a23631d2b0389f37ac",
+      "canonical_body_sha256": "a3633c9e2adaf2294a6dd535910c21c15b61ffce37c8f0740adb9e06dd1faebe",
+      "migrated_file_sha256": "fcabf669dfc3539693321450e84ea360c4a39186d60451bd7c86c9b5c794dd60",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Binomial koeffitsiyentlar",
+      "canonical_title": "Binomial koeffitsiyentlar",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/catalan-numbers.md",
+      "original_file_sha256": "cc6c12736933b37fae6bb060ed5a3eb19981807e0ed57eac51789c07e0dd2803",
+      "original_body_sha256": "5467853e9569db39cf5b160571dd58c6f4722a016dc9827afa51f96011d53e3b",
+      "canonical_body_sha256": "0f30db83320a375911aaf4f83bffde7ddccf01912af42aaaa9f422fcf3c86656",
+      "migrated_file_sha256": "82c936aa00e785fcb7d4998913495463d23a7cc3d4d069e20d013808d83c99d8",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Catalan sonlari",
+      "canonical_title": "Catalan sonlari",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/inclusion-exclusion.md",
+      "original_file_sha256": "38b6b98bc9a7033e10202be7a6e514a07d58b01aa0655f7b7f6bd365ec17958a",
+      "original_body_sha256": "d99e6963186fc5ffbf718c509c2de71aa3d83ebe9f87cc2d8a86aeb24e3a9f15",
+      "canonical_body_sha256": "7f4deeda2bb216c58748ad67e537f6af25c807e5871100c1976f295dbcf23d4e",
+      "migrated_file_sha256": "2bfbc244883b5ab087dcc23e2b15ac8abf3781e6a13692ddbe3f9142cd7da093",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kiritish–chiqarish prinsipi",
+      "canonical_title": "Kiritish–chiqarish prinsipi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/burnside.md",
+      "original_file_sha256": "2757de3611f2b3ae79e22080edc5a0307de8f1c94356856f4bb58758e8a7aa5a",
+      "original_body_sha256": "7ef489b851795875deb073a5a45243cb6effe6584365710d40938f27aff3a534",
+      "canonical_body_sha256": "7fba45e7e48fa8453553aa712bb3b51a2e74a2ecbba40deeee99ca337b091598",
+      "migrated_file_sha256": "ccc5bbb983260031852c91bcd96628df95e7cd8eb43cea574021893e972356f1",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Burnside lemmasi va Pólya sanash teoremasi",
+      "canonical_title": "Burnside lemmasi va Pólya sanash teoremasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/stars_and_bars.md",
+      "original_file_sha256": "62449d3311c26c58ba2c8d1d4ba60f68adbc357e47ac6426008a4ed130c37b07",
+      "original_body_sha256": "b602d9eaba6422e3602c2bde5e0d089fa071f6caab7b422daff923fb0e6c9cbf",
+      "canonical_body_sha256": "36b65ab89848094da2b17907cbf02b09e12ac1d429105adb9cecb96978dbef3b",
+      "migrated_file_sha256": "b4d8268376f5f4b03f238a991df6bb502413576e0132052f075c0bafd721e56d",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Yulduzlar va ajratgichlar usuli",
+      "canonical_title": "Yulduzlar va ajratgichlar usuli",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/generating_combinations.md",
+      "original_file_sha256": "9c3a27ca12f75bcde717253b7cc3336d2eb233f2f603706f5f6d9662ce51fe23",
+      "original_body_sha256": "77a605dea86ff7545fcec6b8a88a5f02570d63879740b6c16f481c4b71c878fc",
+      "canonical_body_sha256": "bb75b60cb4a0d02a79c4ecc605502cf33013080395ed25acfabb21e4475e8343",
+      "migrated_file_sha256": "8f8bf0cd6504db68e0788db6ac615be5404b508c6617fd7a098eaca7f4e093b4",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Barcha K-kombinatsiyalarni hosil qilish",
+      "canonical_title": "Barcha $K$-kombinatsiyalarni hosil qilish",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/bishops-on-chessboard.md",
+      "original_file_sha256": "738179edfe1bdb696a4a6ccfd82a38a51552815d36b84b84b911731cd16fdd2e",
+      "original_body_sha256": "942c9212d7da435462a8fd82e7263d2e55a1bef5f309b71332bd2102cafc1c55",
+      "canonical_body_sha256": "121e6ed7821659166a40b28cb20f3a4807541698d1154560244c5bce342afa4d",
+      "migrated_file_sha256": "dea17c1e125bde8028d5ec1ff4898745899a1933011f5f8159a726c19733096e",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Shaxmat taxtasiga fillarni joylashtirish",
+      "canonical_title": "Shaxmat taxtasiga fillarni joylashtirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/bracket_sequences.md",
+      "original_file_sha256": "66f03f38c6af7cc7a5d63a47720bd06c6ceadb3bffeefbb2736dd66c17748633",
+      "original_body_sha256": "a10e5ca998bdd59e42364446d4093c45a376e09ad05ee1eff2a298e11156ae7a",
+      "canonical_body_sha256": "1db99b9c4da3af23e68b2e8d28a1c7cfe0d0e199d268424e26e328b6f99e4812",
+      "migrated_file_sha256": "96b3c12eebf7c51aa7e7c8edc643fb1df47863d3055b4addfb31d5722c8633a1",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Muvozanatlangan qavslar ketma-ketliklari",
+      "canonical_title": "Muvozanatlangan qavslar ketma-ketliklari",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "combinatorics/counting_labeled_graphs.md",
+      "original_file_sha256": "648b3b62967945bb12975cdc7f0e01dda2603608ff3fb5f711d11903fd201a29",
+      "original_body_sha256": "be98b6a2dd90d7d777e8b429f4b89c519ee76f3c78b4fd55160a31d973330282",
+      "canonical_body_sha256": "65b42dfdd5e315f7ea504f106cb904d800b3fac5ce0f4b79d3c6e7329de0fe45",
+      "migrated_file_sha256": "ff3f11c72af087a0c8aaa39e050a3dc471f8fbe3fa896d541a3e3371ed0421da",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Belgilangan graflarni sanash",
+      "canonical_title": "Belgilangan graflarni sanash",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "num_methods/binary_search.md",
+      "original_file_sha256": "773012795f5e573b636a096dfdd163f4d407b54a87e0c8b726b29c01d7a3a882",
+      "original_body_sha256": "9447e70ff8fb57b2eb50ff4b13b885f28dfac88039203dcc7d3c3bfeee98e930",
+      "canonical_body_sha256": "82c9ddd2e56bdc2504e6dcc64eb110044629c63dc02d73ad99129f1cf66f5e49",
+      "migrated_file_sha256": "c56a118905f99e5331b4be869cd29c99dbb4a700ef55329a15f60f921818e242",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ikkilik qidiruv",
+      "canonical_title": "Ikkilik qidiruv",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "num_methods/ternary_search.md",
+      "original_file_sha256": "6870808d3e66504a8b3a92bbe8ec34e11b5c1f0725a491274de76a3d7793459e",
+      "original_body_sha256": "16f86a50298bee96315199c52c705b7a16e85201c640e9745257c56644a1d39b",
+      "canonical_body_sha256": "11c5a7b9b8af55ac7f5917cdc6c7251aa6d05c4cb8845c67b86d8988c7b3b936",
+      "migrated_file_sha256": "a3d8c6cf9b625fb0b12850498b89553ec18e45439338828b54f7278e96b30c81",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Uchlik qidiruv",
+      "canonical_title": "Uchlik qidiruv",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "num_methods/roots_newton.md",
+      "original_file_sha256": "f9a958672f1a9d7c58532453610015577f60edd00ea781117a0217fb1f085b11",
+      "original_body_sha256": "1befe63a047c31e7810337cb353c3266e2858249ca4915211d8f9ea02c442d08",
+      "canonical_body_sha256": "2e4ad7f0bd075a3e3d15a39f34202a6ccdbd12188c1dd6245de59dfe273af025",
+      "migrated_file_sha256": "8b86ba9376991d878481397f74b1ed0111f962f90a294cfa8c58b2341bc0de17",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ildiz topish uchun Newton usuli",
+      "canonical_title": "Ildiz topish uchun Newton usuli",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "num_methods/simulated_annealing.md",
+      "original_file_sha256": "130485bb487d1cbed665f46c6a5b7e4b35629255ea3d99fbacaaf728b4a5af0c",
+      "original_body_sha256": "9afdc60a029d06cecbc8f80092e1b79510db9dff159b591d5aecb823dcb75f3b",
+      "canonical_body_sha256": "2c646cdff9fc87ddf81fe0b0ef93a22f491ca6d7622e33d67a470dd5451da94b",
+      "migrated_file_sha256": "4d7a78cb7c88c5931d247c3a8f65a78a13f3e013d09878482c5f639ca3ad44c9",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Simulated Annealing",
+      "canonical_title": "Simulated Annealing",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "num_methods/simpson-integration.md",
+      "original_file_sha256": "939115e2b5e91fb2900d43c958b300b4b2738cfc072a7894fb357f3cbec650af",
+      "original_body_sha256": "5634c1b89d50bad7ef90f993753c02739d9e0c57f35cda756ad7735c332df6a8",
+      "canonical_body_sha256": "7b26f9691847505693d05c2fe68f7ae9e6879040535bacf97cfe631f6bab9aba",
+      "migrated_file_sha256": "f2b3b9800ad3d51817616ec117d876a15046025579e9ba4e497b5a22fd62c858",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Simpson formulasi bilan integrallash",
+      "canonical_title": "Simpson formulasi bilan integrallash",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/basic-geometry.md",
+      "original_file_sha256": "5938b5250e70cf5ad9a90dd17cc9e18451a914a9ca677b74373a2226e07348a1",
+      "original_body_sha256": "a817a8f4eeead803c726dd3fcbca8bd07ce6dbfbb00bb462b302c698c089d450",
+      "canonical_body_sha256": "ca9de4a1ea55c7db01d9c9ab60a3208b10536d224d3f6b1b390577f5e14a08a3",
+      "migrated_file_sha256": "8211bdbc7d0c8c7c515ce09ed4f9daf54b0fe78605494f0771cd73641aec8490",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Geometriya asoslari",
+      "canonical_title": "Geometriya asoslari",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/segment-to-line.md",
+      "original_file_sha256": "b8894a445bb05457ff7b77463cd2a172544a0f3c6362a3a3c6dbee28ac9a74da",
+      "original_body_sha256": "21556e2dd24e9a30ab95c2d5e3c646b6f69d83b44b1c5aba01a149b60b6c8128",
+      "canonical_body_sha256": "f78ad81d31990b8207fa28e2beed37c351835ec1518ba5733a44d5eea92382dd",
+      "migrated_file_sha256": "413fa5614fca9b2d4229f3acaef3d50b41c1dd302280e47a34b35536877bf705",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kesma uchun to‘g‘ri chiziq tenglamasini topish",
+      "canonical_title": "Kesma uchun to‘g‘ri chiziq tenglamasini topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/lines-intersection.md",
+      "original_file_sha256": "875121fe9fc05100dbab3e86995819fe59df7058a1ae77e51a6c987453f43466",
+      "original_body_sha256": "a4eab489273c184c62812aaf94709f0c2ef95099aaf25709f3add5a8f37c8b41",
+      "canonical_body_sha256": "958f44cdc542fabd5af97fa264bf98f5929675e5452053a4062b977897afc213",
+      "migrated_file_sha256": "9edb72472fb7935b2161c985b67706a4fbb5ee94d4574822831e50383b37b72c",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "To‘g‘ri chiziqlarning kesishish nuqtasi",
+      "canonical_title": "To‘g‘ri chiziqlarning kesishish nuqtasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/check-segments-intersection.md",
+      "original_file_sha256": "9f58ef46b39b11d95cac6e805972012a3963a04a87a4faec172ea2b85713313e",
+      "original_body_sha256": "fd11e3c439affe10823be07872072376daf5895373cb1983362a4a05eb742df6",
+      "canonical_body_sha256": "647062161efbf099db7d0a2a1cf9b8170c0afe9d0ff1b7650c64441acf58a306",
+      "migrated_file_sha256": "03e03d65e6da684c4d54b82a19478aa5307a710266defbc215e1b7456b579434",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ikki kesma kesishishini tekshirish",
+      "canonical_title": "Ikki kesma kesishishini tekshirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/segments-intersection.md",
+      "original_file_sha256": "8686fb06124b86d2e54f37d7ee53bf54989c4e93bcba600a9697af2618e5314e",
+      "original_body_sha256": "3e4ea2ca5d7187bf415ef5c6797ec37ca4ea34b71834b20bca160dce597dd78e",
+      "canonical_body_sha256": "aba782a45b855a6a905b6c9050adef42978affa0be524e1291f26506ae66f8ce",
+      "migrated_file_sha256": "674213ccab9982ded08461fdf4c52888a30690137c5ebacf638b72f337796f2b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kesmalar kesishmasi",
+      "canonical_title": "Kesmalar kesishmasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/circle-line-intersection.md",
+      "original_file_sha256": "70d92ff68589a75f2a30e15e0becf217e70cd6bfb2cfbf90ed56a18ae742190c",
+      "original_body_sha256": "757633d2f895862762aadeafa57e5a93f61bb03d83b645a66729d7093b9c58c8",
+      "canonical_body_sha256": "e5a105030a3d7a4f4d9e8d865064a7fd55bb218798eef532606ba22a72cab2db",
+      "migrated_file_sha256": "d7c6c58deee2ebe865e86f419ed59ada6ea6a417e0d0d46ea30d569189653538",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Aylana va to‘g‘ri chiziq kesishmasi",
+      "canonical_title": "Aylana va to‘g‘ri chiziq kesishmasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/circle-circle-intersection.md",
+      "original_file_sha256": "ca361b4a25d4d84cef634094d5e92defd9366143611833afbd6bef430593d0bf",
+      "original_body_sha256": "bde3d018bc0b5c73d54c39fa680cce43ac1be5f79ce4b96738a1cad70eb67039",
+      "canonical_body_sha256": "bf310166c654a92529b0bbb7b78a289ec251efea3778e92f8d79e1f908b64aa2",
+      "migrated_file_sha256": "84e42868342cb05e42622d2116fb53c327294ea35093dee0e6e2560f2955d518",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ikki aylananing kesishmasi",
+      "canonical_title": "Ikki aylananing kesishmasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/tangents-to-two-circles.md",
+      "original_file_sha256": "bcf4adfdb1e947ddfaf9b15ef50cbe94a8d749418caf5c48077b317bd2957bec",
+      "original_body_sha256": "85f300087c6095de1e45b4b58dcafd8525aaf70f9efbfc51047390e66008c10b",
+      "canonical_body_sha256": "410fb85c7d0c7a1d49cacfe64b8af71ab1733026d6f5fbf4398fc30cdad665e8",
+      "migrated_file_sha256": "3f1ed9947480a2c3fe65bec215ea604bafbd936f48aa4769a429eed53b820197",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ikki aylanaga umumiy urinmalar",
+      "canonical_title": "Ikki aylanaga umumiy urinmalar",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/length-of-segments-union.md",
+      "original_file_sha256": "678fa0346536362c8fd769f49a9e4163dcb7e11124b30783d9c3a521ab496934",
+      "original_body_sha256": "bb89292832e51fa582499b91cf7e816ffe7a70ebde967125c9d60fd454def107",
+      "canonical_body_sha256": "5599493983a3788cf84c149a23d512e02eeea9691a4cea8a3fe82f6fd01eaeb9",
+      "migrated_file_sha256": "b9bcd7577968a3e1fdeed70ae11f43aeb176967ea65d9cdd5a40f2e878bca0d5",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kesmalar birlashmasining uzunligi",
+      "canonical_title": "Kesmalar birlashmasining uzunligi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/oriented-triangle-area.md",
+      "original_file_sha256": "fa0e65db6a86949f3aeb9cd5f2dadcc1bdd160eacf969ee89dd3394ba373013a",
+      "original_body_sha256": "4fb4660708a4d4e71bf0db56eec188ba03a99de8f334456c30b678f4e2509aa3",
+      "canonical_body_sha256": "e3b2d78cb48b7de2d06f41360c610baf7e5cd92c9837182130b93e1876382806",
+      "migrated_file_sha256": "595d7f07ec3519386f09729483a95716193a96c13a1d6c170f2b91202b21b98f",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Uchburchakning yo‘nalgan yuzi",
+      "canonical_title": "Uchburchakning yo‘nalgan yuzi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/area-of-simple-polygon.md",
+      "original_file_sha256": "ecd28d9188d67c7bbef83768019d0ae92abc481d9cf0641e07882a8f9caae669",
+      "original_body_sha256": "ddf1e5c664b8241dd9875a701ed6b7d6e27007caba3a95dcdaae285149062526",
+      "canonical_body_sha256": "ee143bdcc7506274603f19349cbc1b359700df8d85da6606d9bde2203bad17b8",
+      "migrated_file_sha256": "47bd79f0ca08f11195aa23bc9142c8d196c5537409a48e126a34e3c4ba871657",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Sodda ko‘pburchak yuzi",
+      "canonical_title": "Sodda ko‘pburchak yuzi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/point-in-convex-polygon.md",
+      "original_file_sha256": "7869c1828b593436df5ee6d05211fb96d97a4e95491fa4c96941b289b08122c6",
+      "original_body_sha256": "9ef983038ef878677f7faa884a8218550d3750b2e8577aedf3fa80736099d2f6",
+      "canonical_body_sha256": "f34bee62a46c6f5c2ed95af80ad75d2327046923ce3372dd997f94da7425df67",
+      "migrated_file_sha256": "61f338d964e7ee4ad832f1c84d1f2fa4386ea35cfa4509221a6e1647d57900f1",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Nuqtaning qavariq ko‘pburchakka tegishliligini O(log N) da tekshirish",
+      "canonical_title": "Nuqtaning qavariq ko‘pburchakka tegishliligini $O(\\log N)$ da tekshirish",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/minkowski.md",
+      "original_file_sha256": "8682293be58c62a0c4061992eb4330ed8c2f53a48976f5cc1ec120d85f190e02",
+      "original_body_sha256": "29b7b72dc68322f04f48fd602b637ca397c4c710ad426f490f8c374416bd59e5",
+      "canonical_body_sha256": "3321a4168a6e985f5482d5615329182335886e4e3c550b4e76721ebe70c1686d",
+      "migrated_file_sha256": "8b3c8d8a63fbeaf85754b2b30fb19b1a867bb06ef290d4629f21063a742446c7",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Qavariq ko‘pburchaklarning Minkowski yig‘indisi",
+      "canonical_title": "Qavariq ko‘pburchaklarning Minkowski yig‘indisi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/picks-theorem.md",
+      "original_file_sha256": "3c63e29d3eb370aa622438760c1d5dc5b2c072abe37c7eb0f71a99114e09256c",
+      "original_body_sha256": "ae056188fdf2682aa63b2fa90083cc84a6256f9c653fbb15625a06a44139560c",
+      "canonical_body_sha256": "13af5eeb6be1c9e31f1535fe846e2fc06b53741ae6ab1b052cc31b149eb3a8db",
+      "migrated_file_sha256": "61ba409c00558f4119f998aba518285f565bfb495c5d43d30c801d03e4fc4870",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Pick teoremasi — panjaraviy ko‘pburchak yuzi",
+      "canonical_title": "Pick teoremasi — panjaraviy ko‘pburchak yuzi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/lattice-points.md",
+      "original_file_sha256": "5b8281636a2a78186f066e84d46572a840a4b6a37deddff9097dd9123b7bca40",
+      "original_body_sha256": "8246759f747fa1df57db41ecf9b1a1caa381cb1d4eed0172bd24294fa4d651eb",
+      "canonical_body_sha256": "edd2105cc13a090b8ebf616ba41813c2ad429c8f4e973be4eb08ba4c13d97765",
+      "migrated_file_sha256": "334f11fdf37168ce1f9650fc61b66e4f243e5ccd79d5ea4dfb29115de7605925",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Panjaraviy bo‘lmagan ko‘pburchakdagi panjara nuqtalari",
+      "canonical_title": "Panjaraviy bo‘lmagan ko‘pburchakdagi panjara nuqtalari",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/convex-hull.md",
+      "original_file_sha256": "b714b49aae04a827ffe20c1c0dc4190bb18a2501af1fb355f1204b87aeab9401",
+      "original_body_sha256": "d6e39c53ce8b913b63512deae798f8908ebc360a2f66ca10d161613980c19a5e",
+      "canonical_body_sha256": "2ef3e3038b406ff93c395ce629f71933e0d896d0de7cff6da46e227cc129b465",
+      "migrated_file_sha256": "d238ab66d7fde2765acdacb17894232c54f03007212c71aac10812c3c31aa163",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Qavariq qobiqni qurish",
+      "canonical_title": "Qavariq qobiqni qurish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/convex_hull_trick.md",
+      "original_file_sha256": "ed30695902278ff8fa65340446e6bca5f4b13182f7b348406de4228cbac4aca0",
+      "original_body_sha256": "11a82d0259d2fb191f7dc8480e740c699b9b32c3c59fa09b3783b8098a8a6394",
+      "canonical_body_sha256": "e0db40f25a394d7607f670aa891b0be02c887d13558f574bbff39149ad8cbb84",
+      "migrated_file_sha256": "b7838ac1b00fee548f422ee9849ff9f3c11482422ad9b722e3028da816b75718",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Convex Hull Trick va Li Chao Tree",
+      "canonical_title": "Convex Hull Trick va Li Chao Tree",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/intersecting_segments.md",
+      "original_file_sha256": "c543aa079b54e68eb4183455b80b24a6acc4cb55d0e88ddec31d9550d8a3d959",
+      "original_body_sha256": "2532dfe731047e25ae5b313baabfd909090fc1bce05ef8d398a9dfe1ca73a5a3",
+      "canonical_body_sha256": "9ad9e5344c80e9ed641a704085b2c03d36e3fdf6dab9f27775a668bf1bb66a0d",
+      "migrated_file_sha256": "3bbbbc3b5f6ada74d991fdb8d13e6d25a9dda1eb9a1ef28018f1209b154f7237",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kesishuvchi kesmalar juftini topish",
+      "canonical_title": "Kesishuvchi kesmalar juftini topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/planar.md",
+      "original_file_sha256": "af56dc4f83d8388a8a876d52636805b591ff8083d37241a98061c054e2773166",
+      "original_body_sha256": "1f4d4ee6875210ba351602e34022bcdb7237dde6bd5612ed009631693a117f4d",
+      "canonical_body_sha256": "54cba1128bd1cc3b218a0f21a3687d864f503b0e2fa9ef963f7d07988e59273a",
+      "migrated_file_sha256": "d7ecab9392e7d190664772ba66798ec9cc77a1edbb3e92793a3cb4a15cbb90e8",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Tekis graf yuzlarini topish",
+      "canonical_title": "Tekis graf yuzlarini topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/point-location.md",
+      "original_file_sha256": "5841740086c2a11a2a3f9abd7691975c37f08d6dc982a522b965d544e1b283d8",
+      "original_body_sha256": "f7790907dfdd113404a4b933a45520cb922269c14e05682b689c48116ef5df60",
+      "canonical_body_sha256": "107a852af37f2a4afe43e2760eead3e458afed5320822118b9e4fd10191330ee",
+      "migrated_file_sha256": "bf281496605cae586f0854d204797247c8a7d76978ff42c7249ffa0136564ec6",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Nuqta joylashuvini O(log N) da aniqlash",
+      "canonical_title": "Nuqta joylashuvini $O(\\log N)$ da aniqlash",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/nearest_points.md",
+      "original_file_sha256": "978e45182d3b6466a30f47cc89d12a946db4b1b9722bf302f8039f443e9e16e7",
+      "original_body_sha256": "1a3ed9db12e056138c28f26d1480bdb11235c959503bc74d4e35a2518c8ee9d9",
+      "canonical_body_sha256": "47e379fb608e188d2458247eb1d6e8c1ff91b19da1657c117ce660f966cf0ab3",
+      "migrated_file_sha256": "054005c84af8779dddf15c5ec56991ab8302012715021d8f7249857e8d315bde",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng yaqin nuqtalar juftini topish",
+      "canonical_title": "Eng yaqin nuqtalar juftini topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/delaunay.md",
+      "original_file_sha256": "a805860542f584da979fecdd186c678706f6878cb6493686394a6e0caf83c88f",
+      "original_body_sha256": "78f229c9e02b4bde8b2067add1d8050359761fa303ddeca3960acf3037c99e3c",
+      "canonical_body_sha256": "f6118f97326273fea47eaef12d33eb19539158a50cb38c7f2a4d32aa11308c12",
+      "migrated_file_sha256": "52dc829e46beb4eaed056ddfab1d0e231ec3ffe9be49b4cf6e56ef9ec499afe5",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Delaunay triangulyatsiyasi va Voronoi diagrammasi",
+      "canonical_title": "Delaunay triangulyatsiyasi va Voronoi diagrammasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/vertical_decomposition.md",
+      "original_file_sha256": "d61d756bd4a2cadf57729ac28fa0c0e96d2e8a9fc70752612bd403b8c09a6ea8",
+      "original_body_sha256": "d7df2f28b45443993d34142915ff1ec8e5c19d9e6d8f17e32659fc45908c9b91",
+      "canonical_body_sha256": "349fb8f9169038fd0f8d9b14183511edbfa338207fbe88a01ef2a8851f4f6e13",
+      "migrated_file_sha256": "4aa6b292b752a0ab184167ef5baeedf01a7df091bbf6d563860e7124633cc7ca",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Vertikal dekompozitsiya",
+      "canonical_title": "Vertikal dekompozitsiya",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/halfplane-intersection.md",
+      "original_file_sha256": "c49dc150eeafb6db39efb3014e11b413a78d0f9deb9d48064d140854d8a6d882",
+      "original_body_sha256": "8998c27b78ce51676f8918242452b746aaf41e23b24cb66bdc906cb6c915da0c",
+      "canonical_body_sha256": "3a6ae60da263b2c3a9991eb3ae66c124f5cd1056865466987d34142b3123a634",
+      "migrated_file_sha256": "193a972740d77873a7e801dff8c2dd7799558b18b791a3ba1569d7d9ea51b882",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Yarim tekisliklar kesishmasi — O(N log N) S&I algoritmi",
+      "canonical_title": "Yarim tekisliklar kesishmasi",
+      "title_metadata_corrected_from_h1": true,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/manhattan-distance.md",
+      "original_file_sha256": "50082f790363967431466e68e47e8d2169a151852529a258a223d90fa21eecbf",
+      "original_body_sha256": "e799c1288d02511136073d0421fe51efcf12f785070305a1ac1f3cd15ddda399",
+      "canonical_body_sha256": "7adcd6dc3b2a5e9d3041c14068ac6f18297a766439e56427f9e43d1ae699e9ab",
+      "migrated_file_sha256": "c36dfc57c3d142482a21c7ce457d8d10dd6708e94d1d61582c94d32bcc57f3bc",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Manhattan masofasi",
+      "canonical_title": "Manhattan masofasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "geometry/enclosing-circle.md",
+      "original_file_sha256": "3d20b2361f1f2d562d7790337b0bd898ae593e57ca035ccf4b08cdad44a0b90d",
+      "original_body_sha256": "0835a1f8f0fe220afd1abce96365199a9e9e258112cf0feaff21d6db69c4623d",
+      "canonical_body_sha256": "b214b1d5f62e9ad35c36169a0ed46a24acaf6b3529f58321c810d77e1edbe035",
+      "migrated_file_sha256": "242877bdd3978d94a1ff46d76bbe22f4c51f89d814789f12d54ed47b1e744dc7",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng kichik qamrab oluvchi aylana",
+      "canonical_title": "Eng kichik qamrab oluvchi aylana",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/breadth-first-search.md",
+      "original_file_sha256": "a6fec46d00093d196f81ae1a33d399e7fcf7e060cdf4bbf7fa2a3297aed8ca86",
+      "original_body_sha256": "33b903f9ada57276d3ed774072a7639471e2605e4795a61d002fbdb65a9765d1",
+      "canonical_body_sha256": "03df1f2e81b2856fd65605d11059529433f65998def7d8341b500a1052f83f52",
+      "migrated_file_sha256": "4eae43c698dca1a439bdb67ebc8ef34349df5e681ae2f0237ddd9a8d8c109359",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kenglik bo‘yicha qidiruv (BFS)",
+      "canonical_title": "Kenglik bo‘yicha qidiruv (BFS)",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/depth-first-search.md",
+      "original_file_sha256": "588aa98af7204363a682435c40a1255e1ad98c8899eeea152a3819e94d772cf0",
+      "original_body_sha256": "51c07a29ccf0c7e155ffc99d0f4cb4bb9d16d3fa483fa95b4e710903d4faebdc",
+      "canonical_body_sha256": "2fbbcda787a6f728b1b5f0ae129ba12997807cb551421d74ee54cbffff262a35",
+      "migrated_file_sha256": "54733fa185f646ba2635a91931e8fa171ab52044ed57da00e75076104c9535ab",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Chuqurlik bo‘yicha qidiruv (DFS)",
+      "canonical_title": "Chuqurlik bo‘yicha qidiruv (DFS)",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/search-for-connected-components.md",
+      "original_file_sha256": "00bf0f26b3efbc2b6d93203d24da6d3d0aea61104e8beab33c85944e9bc63ebf",
+      "original_body_sha256": "5f2092dfc4901fc7313977c2d348b1825952daac89f52648f72b0a998403acba",
+      "canonical_body_sha256": "686fa5b105438a8f5cf00fb429575baf859d544302e72c2258f943d2845b036f",
+      "migrated_file_sha256": "4f7e0f5011ef38f7cb6e583af65f659250ae77edeb4cea3bb6b394a0dd2bd1b4",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Grafda bog‘langan komponentlarni topish",
+      "canonical_title": "Grafda bog‘langan komponentlarni topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/bridge-searching.md",
+      "original_file_sha256": "46fc5c387ebd9205306832224647588630c71f7c2cebe2f3b4984ca3b58dc3a1",
+      "original_body_sha256": "28708365ab0c78db98b619555d8268fe51242fa913c7f0c049aba2eb2e7f0ccf",
+      "canonical_body_sha256": "a549f9e4bf3af942897bf33fc0bf390afc0f61a6bcbe34481426766f17bbed61",
+      "migrated_file_sha256": "76882999d5fa587a62b77c35b6d8628aa33a564c84c49790b0d5b9fff5bcb8a6",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Grafdagi ko‘priklarni $O(N+M)$ vaqtda topish",
+      "canonical_title": "Grafdagi ko‘priklarni $O(N+M)$ vaqtda topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/bridge-searching-online.md",
+      "original_file_sha256": "0f54c6e2baaf0e292520bd83c760ec061e47e10271390e9add8afaac06da03b7",
+      "original_body_sha256": "e439769327192176fc030a7170c08feff899f45967c9dd805be9d3e78448757f",
+      "canonical_body_sha256": "a7ca797b2b83bd54edc932052d34ce643506faae93338a0530604c7de1a687e9",
+      "migrated_file_sha256": "bea5c7cb3132b706716e7666bda5c50ca1f0c0057f634226981f5f9d604a4784",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ko‘priklarni onlayn topish",
+      "canonical_title": "Ko‘priklarni onlayn topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/cutpoints.md",
+      "original_file_sha256": "cbbfff7ff0062cc284354fe565d9799916f3bb4c91664da198b0a6742c3e9c7f",
+      "original_body_sha256": "70495075a08190a44fa27f0a4f7800f37592f60f7386ecb4a010636ef16ede1f",
+      "canonical_body_sha256": "60f89819c8550144d18d7647a59ffa64c0e89327dfb9bee94afec7a4e4a191d2",
+      "migrated_file_sha256": "ff17a60decfe417ce8d8d7ca13ee756013e34d3ae01c1a99af5741916a4583fe",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Grafdagi artikulyatsiya nuqtalarini $O(N+M)$ vaqtda topish",
+      "canonical_title": "Grafdagi artikulyatsiya nuqtalarini $O(N+M)$ vaqtda topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/strongly-connected-components.md",
+      "original_file_sha256": "6be458c4cf8761110dfb3e8acd6b22209b438d789589b0e05254865dea3cc9e6",
+      "original_body_sha256": "137725d8196964c3ed9b0529a8a8226f170ebad3fd9f08d28d4379af7e2b876b",
+      "canonical_body_sha256": "ba4ab6bcc9783d250a61124b53f2f2febc859b7d54fc1c2c3a3d8f954fcb6224",
+      "migrated_file_sha256": "a742262737c272b3e96c670743136dc9d3f23baaabaf0786cd28928d5bb86003",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kuchli bog‘langan komponentlar va kondensatsiya grafi",
+      "canonical_title": "Kuchli bog‘langan komponentlar va kondensatsiya grafi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/strong-orientation.md",
+      "original_file_sha256": "95a39be25ddd584d033947eaccd42ce9306881ca8b7ebb58dd5008ec951b3316",
+      "original_body_sha256": "e59e7ac3538e13160159648ee444d1b47268681c9310bbe64db344ddc944386c",
+      "canonical_body_sha256": "4dddce891674b5c5c89cdf1499d8c651c98e4e655fe3f149478452e084e420d8",
+      "migrated_file_sha256": "fb44808aa3808977667b72d7af1e075ca867de6661bfe8704e2185e4676a7bbb",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kuchli yo‘naltirish",
+      "canonical_title": "Kuchli yo‘naltirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/dijkstra.md",
+      "original_file_sha256": "d1783f9ce2de0cac6b78c1727116ac64a1c6bf290f94a63570ed14220e4e5990",
+      "original_body_sha256": "ff7a5d1212ab30c5389e04224f21a90807b84a3487874f5a80309eb2fdf3f5f4",
+      "canonical_body_sha256": "802c0a7bd531d9b98c181dd195d17d3d017dc8f49388a05555d70bfd515cb42c",
+      "migrated_file_sha256": "4c4600f3d68b1c38d2ba3074c1b8fb9e9a5dc26ad939f57b53e2a86558aa934f",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Dijkstra algoritmi",
+      "canonical_title": "Dijkstra algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/dijkstra_sparse.md",
+      "original_file_sha256": "6b6a6fd7faa45503fda2e9024f17cd754c03b93cf95bffd7197ffdc91c951946",
+      "original_body_sha256": "e79b11a1d372cf6bcf1e9457f9d98f2511a6d59787d55759259f001a7074e8de",
+      "canonical_body_sha256": "00eada3e5d96b4af3c500f5c7a590269c748cfaae76a2502505ed59a9af11390",
+      "migrated_file_sha256": "87718250d4ae928da68862d7006055bfda0247bb72705e8a775377567cbb25c3",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Siyrak graflarda Dijkstra algoritmi",
+      "canonical_title": "Siyrak graflarda Dijkstra algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/bellman_ford.md",
+      "original_file_sha256": "85f8e10a22e28d992b7c9e4aa0265838a53189a65e48c673a9276dd8ecf94561",
+      "original_body_sha256": "39f8a9178e5177b2c35897bc685f69491aaa7b205fde34bc71b730ea7621143f",
+      "canonical_body_sha256": "5f83d1b1b0f10a59133ce841dcc8d808487680a4e80bf94a39e2b2df25e2964a",
+      "migrated_file_sha256": "96cd5a018ad718eca66c3873e596c359e5b6283ccb2c68a7f2a11149d8c09a85",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Bellman–Ford algoritmi",
+      "canonical_title": "Bellman–Ford algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/01_bfs.md",
+      "original_file_sha256": "a99e1fff7fc37aac26df4d4fd2dbbc93121077e6dd745043143ff1ceca262fbf",
+      "original_body_sha256": "25672457572a10d57d793f8545db025b1e8d02282bbdea560552ec9291afc6db",
+      "canonical_body_sha256": "8003c179ea5a9e7b773f6e59467f2863b45040745a8294b4d315850b96ac939d",
+      "migrated_file_sha256": "9f52f2eb899e885db394f8507cb9a5e40361f8c455d12583db7485e169e92395",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "0–1 BFS",
+      "canonical_title": "0–1 BFS",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/desopo_pape.md",
+      "original_file_sha256": "d8b719cda3240163e7a72dfb6ac8ddd4b55d246f86b22d83d4347feb64c8a90f",
+      "original_body_sha256": "d4127228728f8a5e2d5a4157e08349f9136fabecb6d8cf1ec541789482c4dca7",
+      "canonical_body_sha256": "4adce5078dc8d121b9e3673f4c45f5a96d5061ff7b70fc6cca3ade7c129ab3e0",
+      "migrated_file_sha256": "95e275837eedb58ef710e0487d646279d33ef2347ec33c4bb6b71ea1e7aaf8b3",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "D´Esopo–Pape algoritmi",
+      "canonical_title": "D´Esopo–Pape algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/all-pair-shortest-path-floyd-warshall.md",
+      "original_file_sha256": "ce2b3f663166b3eb39571867958891e88f38f9119403df2a4594f4b5676faab8",
+      "original_body_sha256": "817c7d2ee596aa218feea06d82bfeb58edef915f77f87463393ce6ac93c4d2c2",
+      "canonical_body_sha256": "8c9c968b5bb80aec574f4e1e89f71acc55dafcf290217f9145b0439170f69549",
+      "migrated_file_sha256": "11231082f9888be62aed3334d0c942d31b8882fee81e195e5f0433674d33e3f9",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Floyd–Warshall algoritmi",
+      "canonical_title": "Floyd–Warshall algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/fixed_length_paths.md",
+      "original_file_sha256": "27705fa6d341efec817b85d2317b39608066fc190ad7834ae33b41b7fefc60e0",
+      "original_body_sha256": "6423ee6cd34a8a747e94dbe35fc88b988ace60ba694aa4e09376e30d1180aadf",
+      "canonical_body_sha256": "12203def1be436cd07db66de1bc7a3603c05ece79c1596e6195d3f98c9cad68a",
+      "migrated_file_sha256": "baf521dba9343ef081aaaa8249bcc8715a0327f3a322cd9997af3a533d300eee",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Belgilangan uzunlikdagi yo‘llar soni va eng qisqa yo‘llar",
+      "canonical_title": "Belgilangan uzunlikdagi yo‘llar soni va eng qisqa yo‘llar",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/mst_prim.md",
+      "original_file_sha256": "d7d40f1aa505d97b21c62687fb0e114e42621db88d3ddab5bb0964f3ea2147d0",
+      "original_body_sha256": "dbb52bf5bd9f5dde98c37ac3008656687c645160de37c2398c9b5a3d5599d4b8",
+      "canonical_body_sha256": "cc23ed8ce02bff3f732a8c3a502bba7c01e02304a6d4f04575bb1e67c222d026",
+      "migrated_file_sha256": "cf96513c971005ae26a01023a1c06ed4ddb55b27de89152a2d818517791238ae",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Minimal ostov daraxt — Prim algoritmi",
+      "canonical_title": "Minimal ostov daraxt — Prim algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/mst_kruskal.md",
+      "original_file_sha256": "4762daf0055165d902562e68847665c38e8b1bcd0e57be19ec15e57da72a98ef",
+      "original_body_sha256": "16eb75ee99cc7e102b9c2875d35251bb1981fafdb0a9590eabe80d4e32186674",
+      "canonical_body_sha256": "29336dc519c99a5ed9339107627f1d91fdcddd065cec7322eb92585c3c369381",
+      "migrated_file_sha256": "74d509e89f55d1d7006f640b04c3eee301dbd131db6858a872877703186dd8ed",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Minimal ostov daraxt — Kruskal algoritmi",
+      "canonical_title": "Minimal ostov daraxt — Kruskal algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/mst_kruskal_with_dsu.md",
+      "original_file_sha256": "6f750149f390f24ecc5470f3ba60bd7b2ba8019baa3c304062c0e19a13f782f4",
+      "original_body_sha256": "8af60df6e99e35ab3eecf26945a2de8801e8aae90aafc0735bf4f3fb834dd747",
+      "canonical_body_sha256": "e8476e5b38f9bc62c76ab60df430e094fd9ccb35ae4134c12b805c94183cf2a1",
+      "migrated_file_sha256": "af1a4f6feaaa227aef2158b3a125feff91742bda20d4d19d72cbe9a959e3ce88",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Minimal ostov daraxt — DSU bilan Kruskal algoritmi",
+      "canonical_title": "Minimal ostov daraxt — DSU bilan Kruskal algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/second_best_mst.md",
+      "original_file_sha256": "81a51946d4fe5c8fb2966b19b7d7717c8b9507d56b1e6b9a41f93540738311e1",
+      "original_body_sha256": "8fff42b2935f2a6b70afe6f4bf1f95951d8cfcad35b292adc1720b41d42ec635",
+      "canonical_body_sha256": "78e884b1217da3c35954297a7727feab46722406a7008becc8ab276159ee5f89",
+      "migrated_file_sha256": "0862437c5b18fb23c02842903881a3527e26d8ada128960670f04dd92a0d08d8",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ikkinchi eng yaxshi minimal ostov daraxt",
+      "canonical_title": "Ikkinchi eng yaxshi minimal ostov daraxt",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/kirchhoff-theorem.md",
+      "original_file_sha256": "e67ba09655b41a716b79288752b69769580935c38eb8e30b6722887b19be17f8",
+      "original_body_sha256": "a34fbec387aa6b9788c1a984ac70ffa6cdbc95f512c7a85bf587a2d941a516fa",
+      "canonical_body_sha256": "3966684dd01b1c5de75d92d6faab98e932e58e5b6d63b8d490844f191c2840a0",
+      "migrated_file_sha256": "a34a4fabf826c0ab88661a8986772260395a1f66a702f9d6eacc333b38ac12e0",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Kirchhoff teoremasi: ostov daraxtlar sonini topish",
+      "canonical_title": "Kirchhoff teoremasi: ostov daraxtlar sonini topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/pruefer_code.md",
+      "original_file_sha256": "463d779bc13a50e9ac25d136ff2e9b19cb2fa6189e8a65acd42c707f3dc3d9fc",
+      "original_body_sha256": "b23351e388552817e8a0c308b727aaa58cc79e4cd2cb327bf24178483cc2120d",
+      "canonical_body_sha256": "5ac988be878d22908f0fba9190628290a31947d5801cba1967635c8e668e4ef3",
+      "migrated_file_sha256": "1bd26dddfef199ec467f0386ef4c77dddb819cefe1ca9169810142c8ce3fe3c2",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Prüfer kodi",
+      "canonical_title": "Prüfer kodi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/finding-cycle.md",
+      "original_file_sha256": "afc4e8743ea695210b1c7fed001ada0d27707a8da0c05da057513c840dc24934",
+      "original_body_sha256": "d04d4e7785945439686dd50a6c3361fcf8ae892827fe8ab1fcf2347f683edbcc",
+      "canonical_body_sha256": "a64532360830210e7931fc84139a620db8b01f70e1f047fdbfc035b2e1bcca51",
+      "migrated_file_sha256": "e720aa88e0916e3451c73eba3ee33de4c2523eecbd87383c37e95a1c87a377a6",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Grafning siklsizligini tekshirish va siklni $O(M)$ vaqtda topish",
+      "canonical_title": "Grafning siklsizligini tekshirish va siklni $O(M)$ vaqtda topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/finding-negative-cycle-in-graph.md",
+      "original_file_sha256": "24193f4fe948b3ce2bc09c09a7eb68a985a212885e54fc8ba05065c26a4cf2d5",
+      "original_body_sha256": "cabb6332f2c7b1bbefd38a979b0210f28629ec4684e554bfcfc5f14cec418996",
+      "canonical_body_sha256": "52243db5da88f73fb90ed743d31c33aaba98678504a45229c7cae99078461d3d",
+      "migrated_file_sha256": "f013bdfcdad367c4ab7c0a3566a19113a2685f6e2b8408f3cfe495f64e090384",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Grafda manfiy siklni topish",
+      "canonical_title": "Grafda manfiy siklni topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/euler_path.md",
+      "original_file_sha256": "62d7454c37a3ceaf975e930d08d48e2ecd8e18cea45d3d1feaee01944bfa5f54",
+      "original_body_sha256": "4162dc41e680a11f2a451d4553e81b6f4d93d8ef6f818e90aae3b05c918951ab",
+      "canonical_body_sha256": "683b2da222784ce16c5a76344ba91eec8c9cb70f7f5d5e8eb27d2dfc272cf613",
+      "migrated_file_sha256": "ed4650d8855d88268b1c4fe16d0064b58b9c6124cc05cffcb82a342cb056284b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Euler yo‘lini $O(M)$ vaqtda topish",
+      "canonical_title": "Euler yo‘lini $O(M)$ vaqtda topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/lca.md",
+      "original_file_sha256": "9202869c3ad2b3555578f5df7f0c858e0902b049fc6902ff0b3708d391763be2",
+      "original_body_sha256": "053f4a15e3b07068b111c4c8b6b41faed5e1aefe75477f2b29e3016faef2107b",
+      "canonical_body_sha256": "dc9df33140365714ce39f8b25901c9a78923cb6aa71abb06354cc1e449e0b47c",
+      "migrated_file_sha256": "d1bff0a5c2a9088a29476f9f8cb116768ebcad4479541725876e1c425c82db51",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng yaqin umumiy ajdod — $O(N)$ oldindan ishlov bilan $O(\\sqrt{N})$ va $O(\\log N)$",
+      "canonical_title": "Eng yaqin umumiy ajdod — $O(N)$ oldindan ishlov bilan $O(\\sqrt{N})$ va $O(\\log N)$",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/lca_binary_lifting.md",
+      "original_file_sha256": "274ff07eaa52ae9ac2f48389966861b00558a53aa83fb920e18567002ea05967",
+      "original_body_sha256": "4071738b740588bd5d5ac7e27733f65a85b98d30a0900bfb54bd1b6a1464cea2",
+      "canonical_body_sha256": "1c65eae48e9ee84a06cd976c1fc6369060871c0d572886f7e777a08af2f4d38b",
+      "migrated_file_sha256": "70852f78e570597ceed43813628baea75a6eb28de500a93504adf01bcf555be4",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng yaqin umumiy ajdod — ikkilik ko‘tarilish",
+      "canonical_title": "Eng yaqin umumiy ajdod — ikkilik ko‘tarilish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/lca_farachcoltonbender.md",
+      "original_file_sha256": "cb822379a5362d72a08aebe423458ea7bcb21faa8a626baa88384e6aeb88765f",
+      "original_body_sha256": "f7d7e3c9fe7f26fd20e79b18826a7fb5993bcc018560df6d3ea332bb4cad5685",
+      "canonical_body_sha256": "9e4261a51ed6031014ef1ce57d637865291805c8a54a186397e3850d075a1609",
+      "migrated_file_sha256": "d51d2a051773adb17a19ac8c71a31033343e1d4382cc043b0391fcc4de551993",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng yaqin umumiy ajdod — Farach–Colton va Bender algoritmi",
+      "canonical_title": "Eng yaqin umumiy ajdod — Farach–Colton va Bender algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/rmq_linear.md",
+      "original_file_sha256": "276f425be7084cb26165aac59c855e2ec056420a04f4ebefc5dac62c7b0dddcf",
+      "original_body_sha256": "caf0fe1a79204f49d9a9ca9e6e570a80cba44396ac1bf5ffde64b7b00bca40d4",
+      "canonical_body_sha256": "a9c9339a8e83dfa8d472294f7fe6b5e507c111c304aabffac8b15e7116c88d21",
+      "migrated_file_sha256": "8c53de519c0da46624f0a216cba1b7d4ab2f64e343fa242bd2b74e850fcf045b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "RMQ masalasini LCA topishga keltirib yechish",
+      "canonical_title": "RMQ masalasini LCA topishga keltirib yechish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/lca_tarjan.md",
+      "original_file_sha256": "c000e0878c96b430e5874b4f9fa2b0c8a7a1d2cc44d35918df5ee2347dabc9e4",
+      "original_body_sha256": "a4f2cfe54229670f47ed9dd78db9ab287a4dc094d3aa2e71d68a04772ee39a0e",
+      "canonical_body_sha256": "7b98aa4e65131860d7b0fc8544be0c7e868917bdf2f7e6a9d11c8c14c3051708",
+      "migrated_file_sha256": "8bda09a0626da7b9aefccc2d39503879e688d6c028b1a60e47b8f53b898424e0",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng yaqin umumiy ajdod — Tarjanning offlayn algoritmi",
+      "canonical_title": "Eng yaqin umumiy ajdod — Tarjanning offlayn algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/edmonds_karp.md",
+      "original_file_sha256": "9d3da01ce51995b6361c838cf8e87838a446da87e67a20ccf31ad2dd304fd688",
+      "original_body_sha256": "920ff7127512906960ef77c84f07d33b30099290f3c2a08802c002eb18bb09ff",
+      "canonical_body_sha256": "a2e34d3b0089989cbaffa5e13e95a3842dfc78af22fa33dbfeef95ca6cd7ad4b",
+      "migrated_file_sha256": "c2a86445e2c268da4b2d97a801a510f5bbc7ec1cfc53f7cae666d9cc7f4e94b5",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Maksimal oqim — Ford–Fulkerson va Edmonds–Karp",
+      "canonical_title": "Maksimal oqim — Ford–Fulkerson va Edmonds–Karp",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/push-relabel.md",
+      "original_file_sha256": "68a543e8187cce25107d77bd7bd4fb7982db8c9a0557ad828275dbdb35e4f6c5",
+      "original_body_sha256": "c2eddf1a7c84354ebb3f1cf489355cc4d910c9717a98b99d82c3ddb80a9b0e8e",
+      "canonical_body_sha256": "737b5050258f7227d7d7d19ce03a13d684deb0f7e8f8408fd97951a8aa127681",
+      "migrated_file_sha256": "bb1b1f6f0709d05d0c9bf6b26ba8bffcd0a80ad16cf185c169f6e0bcd60d33b5",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Maksimal oqim — push–relabel algoritmi",
+      "canonical_title": "Maksimal oqim — push–relabel algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/push-relabel-faster.md",
+      "original_file_sha256": "12d4591b5d6dfefb06600c1d4579d48522263cb78d1271a6b0c798805854e914",
+      "original_body_sha256": "5a73658365254d58a41f34adf5293d371ec12dab483aa9acaeb89b8ef7d0d543",
+      "canonical_body_sha256": "900312166160648652dd0322045fa4b14c925abee93dc5d7df3d8da7b6f82139",
+      "migrated_file_sha256": "774547cb1aac441e300320e9ad267d0e18d76cc391f0f53c798a9938ceeda312",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Maksimal oqim — yaxshilangan push–relabel usuli",
+      "canonical_title": "Maksimal oqim — yaxshilangan push–relabel usuli",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/dinic.md",
+      "original_file_sha256": "7fe5b25b1ba1cdd2739323d548d627fb4f39385cc8ef45d63084236eaebb98b1",
+      "original_body_sha256": "b803bc44179f040e753698e01acf73987d8febc3e8a0ca3a38cf5ad059ecb29a",
+      "canonical_body_sha256": "48d9377692499c86284d97c9702e20bc23936379d63dacf2f2eeae4ea5a21d21",
+      "migrated_file_sha256": "c9ca5aea92ce6e8a65745ed6f166f5fcb99c3887ad1654916159e6c8d7401fb1",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Maksimal oqim — Dinic algoritmi",
+      "canonical_title": "Maksimal oqim — Dinic algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/mpm.md",
+      "original_file_sha256": "338664bfa4e902850a5c1d74bfdfa887682cd9d4a77b12a7ea2800845909cb79",
+      "original_body_sha256": "96403c9a33ec3bcbf7ce3b77d7d835ae98e620721d491705b2f08b1e676f9192",
+      "canonical_body_sha256": "fef9792143aa03663597d90dc9abb1c5f27e5f00a1ce6c213f2022b715b70c97",
+      "migrated_file_sha256": "393be27a16ec25c92cf85c9ef6343cdaaa0e12501dad56f13c59fd7c529619d2",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Maksimal oqim — MPM algoritmi",
+      "canonical_title": "Maksimal oqim — MPM algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/flow_with_demands.md",
+      "original_file_sha256": "75dc4801999f9e7283d8896813d2e8b9bca366c3421516ac6cba125ec8257f1b",
+      "original_body_sha256": "ddd074696acafbc271cbe13662eb15360ff88aec43e0f30757b616dad49038ed",
+      "canonical_body_sha256": "fd03b248efb869b57dad474b8bc1b621fe2cf18430e5abf84cb65aa0624964a9",
+      "migrated_file_sha256": "baab590f1428a204a131da7320bbf3a3ddd4ba5be95c26d960ed54a3b73c73a4",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Talabli oqimlar",
+      "canonical_title": "Talabli oqimlar",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/min_cost_flow.md",
+      "original_file_sha256": "414ae4fd7c8c5a29ebd72f382d2d39cef5cdda9ea5da7f7e05b4553a138934d2",
+      "original_body_sha256": "af2935314a905ff5a073a124ec11d44478acb4aa2f41ef336c2b697e632a1084",
+      "canonical_body_sha256": "afb54c01188ff64088f40bd4763ee13c0d202d545572eb3a0a696a1b8ba5644d",
+      "migrated_file_sha256": "56ac61ddf86198580ab635c810d26cf69353f0dd76487e866cb3291fa656427d",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Minimal narxli oqim — ketma-ket eng qisqa yo‘llar algoritmi",
+      "canonical_title": "Minimal narxli oqim — ketma-ket eng qisqa yo‘llar algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/Assignment-problem-min-flow.md",
+      "original_file_sha256": "e3a0aea6a162eae8f829f0af1a5ea140b01f510f20e1b10498c132dd0eb2273a",
+      "original_body_sha256": "6fef383518ae4ab91da801ed7140f16eb924fee5ceb1b85a59b04c8bba5120bd",
+      "canonical_body_sha256": "f87c6e9bf11502110bbc7eaae6306b047e1e6290cc00aeb408fa603c2cddf3ed",
+      "migrated_file_sha256": "e54c5f6fd95a9efc43baa03a3206187813d99d62220000dbae79d0ef1886afec",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Tayinlash masalasini minimal narxli oqim yordamida yechish",
+      "canonical_title": "Tayinlash masalasini minimal narxli oqim yordamida yechish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/stoer_wagner_mincut.md",
+      "original_file_sha256": "8358343a9c5d24381b41ec9281d59c7221168a744d8c74dd166d1966ac88fe68",
+      "original_body_sha256": "c724ac85680ae90b6a6a54f46a666b83d996e2957f189ea2d4436717722a236f",
+      "canonical_body_sha256": "8e801188552598bdf556f62b93b81c49d8395c600624a699f03ad594c8947321",
+      "migrated_file_sha256": "28dba1711cb97733f3b6975fb3ab8e1023e1167c8b229ba1815d16c08a6e8187",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Minimal kesim — Stoer–Wagner algoritmi",
+      "canonical_title": "Minimal kesim — Stoer–Wagner algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/bipartite-check.md",
+      "original_file_sha256": "7af7870e5a22fed4b07e9c633bd94f0200da2882b621c84cdf891134721cfde4",
+      "original_body_sha256": "bb1cc5d060b946e1ec4a64197400702eaa72610f89cc7ab094e694614913a96e",
+      "canonical_body_sha256": "b26919c2f3baa2ce37cafef2cc7dd133de4b7cfd48b5522123969165db5754b3",
+      "migrated_file_sha256": "62bb0df594f6ae86be2287ffafb874531553eed9dd222a05f9823bb2cca04ffd",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Grafning ikki bo‘lakli ekanini tekshirish",
+      "canonical_title": "Grafning ikki bo‘lakli ekanini tekshirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/kuhn_maximum_bipartite_matching.md",
+      "original_file_sha256": "999e8fc73880f9a5ad8a3c61181eb0028f989f18ab504e9f8b392c60590bfa07",
+      "original_body_sha256": "32f9daebb5eed11ce2c5925a263bf7521b6aae29b6708b963e65e94fff290682",
+      "canonical_body_sha256": "ab9f07bd8f430eab2bc3552b7220cb6248605a28fdd03d97913cca007a95b637",
+      "migrated_file_sha256": "df448bd9254fa05bf48fbac453b71c9c1bc117c78e470070394545c9a8c4efce",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ikki bo‘lakli grafda eng katta matching uchun Kuhn algoritmi",
+      "canonical_title": "Ikki bo‘lakli grafda eng katta matching uchun Kuhn algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/hungarian-algorithm.md",
+      "original_file_sha256": "ec446c92ebde74e6580270a74562882519ffb800cbe358ae3730acc5e7db1865",
+      "original_body_sha256": "d1ad3ea4f133c12e9acd7874424291a641f1c74b466b93c2c2c8156042427814",
+      "canonical_body_sha256": "dcb81411977da9973b763c9cdf807af2518e17683891c294375af7f0a29a4d22",
+      "migrated_file_sha256": "0d6a7ad5439039d5bcfd94e32ffcca79ae1fa5e7d0c6a1f1e2968d31a4ae6ad3",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Tayinlash masalasini yechish uchun Hungarian algoritmi",
+      "canonical_title": "Tayinlash masalasini yechish uchun Hungarian algoritmi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/topological-sort.md",
+      "original_file_sha256": "0c2341c79e7d6b1ec5202021e954d9145a93a1353b0b38bbc8395fe818409b0c",
+      "original_body_sha256": "35531bdce7c954aff3aa4974cd0bf66ee0d84af05578e9c7b267999973b1fcb8",
+      "canonical_body_sha256": "189446b402e806e4737666432f01b60598a5f00a6a104ecb93c2c8f5244f0347",
+      "migrated_file_sha256": "502a6939c2a1e909ffd9d99fb381656b77cf7df23d1b3bbe250e3ec62ee2a52f",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Topologik saralash",
+      "canonical_title": "Topologik saralash",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/edge_vertex_connectivity.md",
+      "original_file_sha256": "2c867c95000efd140a3e8b79a039cc0a7d963aa653b569675e9eabe5bf919558",
+      "original_body_sha256": "86c403d6ff4679249a3bd8d77cbb3abf512d3a320ec009901521b7f515e09cca",
+      "canonical_body_sha256": "9903274bee121d27aed64e502e9e4e07ce482714b95540b0e7b63ba177758b80",
+      "migrated_file_sha256": "fe3008f7d5116df42d410142eb21249cb94a9d71533dc5b1e09474495645e615",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Qirra bog‘liqligi / tugun bog‘liqligi",
+      "canonical_title": "Qirra bog‘liqligi / tugun bog‘liqligi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/tree_painting.md",
+      "original_file_sha256": "373fc4c17827fd6c49725b71e13ea02e6a1cb8a495dd64fbef23f749f99889c5",
+      "original_body_sha256": "34fda8423c0352a76829cbe7e768e3d7d0f126abfc461cfad0a2846ecf2bfee3",
+      "canonical_body_sha256": "e11b7cd2e0c411131f73b6d568cc8a2e594b253c1b869b7a59a3709dc7cd8abf",
+      "migrated_file_sha256": "239c8da939e24a8c79afb2dda9ee701a99a5c1829e23d7897cae436e9b4c34c1",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Daraxt qirralarini bo‘yash",
+      "canonical_title": "Daraxt qirralarini bo‘yash",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/2SAT.md",
+      "original_file_sha256": "078e9eaa055746dcae6ba01f3d11b1f854451cb59c03793b828f4c3ff2da9e0c",
+      "original_body_sha256": "72717aff80f0b7a9a514b6290120eb2747118e0b69ecdd50e3e2ef993fbaaed3",
+      "canonical_body_sha256": "86392529878c3ceed016cd26127083295c017f6289f4f2540c93cf9f9c2f647d",
+      "migrated_file_sha256": "8e4afae90027004e874742ac3420347bdabc5f154318f6c147d36c1f476e422e",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "2-SAT",
+      "canonical_title": "2-SAT",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/hld.md",
+      "original_file_sha256": "6a08789a58f7420735aedc04fb2ec86dbc7a4d313476944afb9b4060aca98484",
+      "original_body_sha256": "373221ec3271a56076a992a5c8b66c3ca82ed7ef3b5176209cbcff0fb16d6217",
+      "canonical_body_sha256": "b7fecb87f586acae4a463b6b252d9a32e8bf91ab47ba132f4955029b55fd0dda",
+      "migrated_file_sha256": "ec8ae39fea00f56408e2628c423bdc97b5e06be68653da09d0e3cef72dceb0cd",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Og‘ir-yengil dekompozitsiya",
+      "canonical_title": "Og‘ir-yengil dekompozitsiya",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "graph/centroid_decomposition.md",
+      "original_file_sha256": "f7d5417207eee121ac4f9733fdb412e9a2ec5e858c1cccb9bd354f7b41292e3b",
+      "original_body_sha256": "7b7bf47794f5e8f2b0f6a697688c2027e2f7af680a98643d568d9c4a38822c30",
+      "canonical_body_sha256": "522103109ad3b04588473bbe13c796323df5e9521c302e7571fc2dc632397bcb",
+      "migrated_file_sha256": "2846edab8ba0c9b7fc0e9d92a8d7d1a5d77d224b55ab3ed262249c57868087a0",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Centroid dekompozitsiyasi",
+      "canonical_title": "Centroid dekompozitsiyasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "sequences/rmq.md",
+      "original_file_sha256": "acfe4a197299a10962f23df5bdd88ba689b4e555999794ea9ce2a5d0a4a33c3f",
+      "original_body_sha256": "3ca3edbf548d1b6d1b6d11625a0f0bd61305062e2a29a2054c69964703570b20",
+      "canonical_body_sha256": "20f44511936ed0c4a397528614277b963c11d8bbe748807b0c442b63b70b1e22",
+      "migrated_file_sha256": "855505616fc821b6ea548077864bc0037d01179ae2619b8f0b10c745162d5021",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "RMQ — oraliqdagi eng kichik element",
+      "canonical_title": "RMQ — oraliqdagi eng kichik element",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "others/maximum_average_segment.md",
+      "original_file_sha256": "fd89e2cb22a42645ffedd37696ed2e693de546b97930802dfa336a65b0517be9",
+      "original_body_sha256": "c89d7bf30841f9b3ce19f697f27702485b3d31772907dafd122af28a82428787",
+      "canonical_body_sha256": "e0715e5a0213959367c12f0d676308985a7e756afe05326a120d909a945e83da",
+      "migrated_file_sha256": "5383ad1874869e0b764520b72b9c81be2f75d1de2c7b73a86de11522554b590b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Eng katta yoki eng kichik yig‘indili ostkesmani topish",
+      "canonical_title": "Eng katta yoki eng kichik yig‘indili ostkesmani topish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "sequences/k-th.md",
+      "original_file_sha256": "78895bb2c9bbcb965262a0dc5aa24c07347a029940de3345af1f268d0fa877e8",
+      "original_body_sha256": "389d86f88e4d3ff4c9bab235e8605edbc09ba4d70380d1d3837d3ad93e39f9ac",
+      "canonical_body_sha256": "34e6127d6d8d98407c934bcd98efa61f22ad7a2946930c9b21db197963935e96",
+      "migrated_file_sha256": "b4f12a56985302cce0445978db3ead769d6b2bce31bd2cf4d9c454e82ae39ce6",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "K-tartibli statistika O(N) da",
+      "canonical_title": "K-tartibli statistika O(N) da",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "sequences/mex.md",
+      "original_file_sha256": "3ba62b82a76bd48bfe4575443f5a89c6da9bbdbaa63d6560428791973081aa2e",
+      "original_body_sha256": "4f601ebd3fcb5d3df44d5ff058a1f5c83b5f59cd93e965f4d8fd44160ffb21a2",
+      "canonical_body_sha256": "dfab910ffed4106b189df0d57dd887ac168d0a7d7ff6bd954f4ee4a846fb8964",
+      "migrated_file_sha256": "43ec0cd61141f58e2e1164f4fe1cff5e56627ddbdfc48470ad6b53bb072b3fb7",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "MEX — massivdagi eng kichik mavjud bo‘lmagan element",
+      "canonical_title": "MEX — massivdagi eng kichik mavjud bo‘lmagan element",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "game_theory/games_on_graphs.md",
+      "original_file_sha256": "334708bc548d579fd8dcccec0c10d00fbddf360fd8b578c49f3f328bc41de8ff",
+      "original_body_sha256": "696ff108126139a2e15748102cf0b5b645a173cbb0fb1b1f6882d7664f7ae605",
+      "canonical_body_sha256": "6338764764311b641fe5114d4f290d5e31e0beaa69b0da7b1f43b8503410c207",
+      "migrated_file_sha256": "a1da33128b5432a5f3cad42b6f6b1735f25b2f288bbe1bd624f94cb126e6205b",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ixtiyoriy graflardagi o‘yinlar",
+      "canonical_title": "Ixtiyoriy graflardagi o‘yinlar",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "game_theory/sprague-grundy-nim.md",
+      "original_file_sha256": "e5aa1fb66ce9ac9c224e20bf98cd9fd26ea0f3d9c26a9d235afc5e48761e6087",
+      "original_body_sha256": "d1a59a59b8f0f6798a2636a32eb286d30a23545cd321403b260e793b6dd1d8b9",
+      "canonical_body_sha256": "1182328e82cca7c531a173ac8797fc04c448442eee7ea37406a1650b3bf3c88f",
+      "migrated_file_sha256": "92079085cf20d8b7b4d14d84c47469ccfa246597c55147c941ebdf91ed7ae221",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Sprague–Grundy teoremasi. Nim",
+      "canonical_title": "Sprague–Grundy teoremasi. Nim",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "schedules/schedule_one_machine.md",
+      "original_file_sha256": "d3dd05299207638d169b1a2c0b8eb30d33141d22126da33840845646e69a186e",
+      "original_body_sha256": "80a2a507c1beef1c7122d8d65f7a5db8628ce018fdf178cfd7c2d2cf85a3a15b",
+      "canonical_body_sha256": "5f2679cf98cde55b4592951fa188e07cd5727ec275a9f85f1f565aec8a886b7b",
+      "migrated_file_sha256": "6f281c19c128531c6dc12d5c3b3f4c0d50879ffe4aa8fc09fd9f37a76b71ae42",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ishlarni bitta mashinada rejalashtirish",
+      "canonical_title": "Ishlarni bitta mashinada rejalashtirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "schedules/schedule_two_machines.md",
+      "original_file_sha256": "57380650c19b472bdc9f23159190a4b0cdb63ee168ad14edf929ea576910c32e",
+      "original_body_sha256": "e8a46c7add37ce1acf1bd35f4d8dfd642e23f182cb92c5a858d28e311ecba8fd",
+      "canonical_body_sha256": "59d866ee51b6d1609432ff49fd85277e46472e872f7f8f4b7df7d00b2204e1c7",
+      "migrated_file_sha256": "2541e87c26d9d667035c097d9923b037090c1aebc1c33d1468fa04d57fdcbb44",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Ishlarni ikkita mashinada rejalashtirish",
+      "canonical_title": "Ishlarni ikkita mashinada rejalashtirish",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "schedules/schedule-with-completion-duration.md",
+      "original_file_sha256": "2935d63edaa5784f7443741afac7e3a5d3593476c98c61cd032cdcefbf37c893",
+      "original_body_sha256": "a9e8128df43d9c3b5d71014e3c4e3f1b62d3f75c64dec23214af4946e25f1db2",
+      "canonical_body_sha256": "47fe3edf1a75f18a6e4403e18b908e33b22d04c373c9589daba1f1117b9402e8",
+      "migrated_file_sha256": "edb8357bd752859bebe1cd8875ccb2e82b02405182f4b2ecee7d962201a42b01",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Deadline va davomiyliklar berilganda optimal jadval",
+      "canonical_title": "Deadline va davomiyliklar berilganda optimal jadval",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "others/tortoise_and_hare.md",
+      "original_file_sha256": "a99f5210231002500329acc0ef8a7cb1b1e3e3a7c1e239d0f2fb3fb521a9a8ba",
+      "original_body_sha256": "ee6eb509d6b93e3dc6d1b2d0fb571796b502f5f929a0b6a12bd25a1114c39fcb",
+      "canonical_body_sha256": "63b725b39bdd59a48651e0fa4b5b6ae2c61e2124d9b78896c1f92128a87c666d",
+      "migrated_file_sha256": "730d67b12de60fac71883956f57e0dabf6d06283661c7a4c9d60a28874d6d382",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Tortoise and Hare — bog‘langan ro‘yxatda siklni aniqlash",
+      "canonical_title": "Tortoise and Hare — bog‘langan ro‘yxatda siklni aniqlash",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "others/josephus_problem.md",
+      "original_file_sha256": "e3ac69c7600d90037502f44b90ac5b02b3e2626ce8d869891b1a0f79f6281d73",
+      "original_body_sha256": "37988940d3e8a76a1ca16f5103bb270a15f9d427cdcdccef4e9b516973839235",
+      "canonical_body_sha256": "c6a925625da8061c1cad07c5a40a95e2ab212fb46d2d9b603bfc6306e08aebbc",
+      "migrated_file_sha256": "84155c0541750916969157d5fa7053ecf27853e4563ec577c5546595beef9d1f",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Josephus masalasi",
+      "canonical_title": "Josephus masalasi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "others/15-puzzle.md",
+      "original_file_sha256": "763e99548d456b6fc8b3f4667c85578d0b497388ced8a4c39a60c6eb78dbf023",
+      "original_body_sha256": "f6ec584323fc815be3c4fcb888e9983ae84984756063ae870732dd16b801a6d7",
+      "canonical_body_sha256": "368f3873328ce1dc1a43c7c0b7cc467c9220ae29643420548c9b566b525c7fb2",
+      "migrated_file_sha256": "684f35e2592eac8c20d31884cd357954a9299e1bedc198225ac7ae6676eb22f2",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "15 Puzzle: yechim mavjudligi",
+      "canonical_title": "15 Puzzle: yechim mavjudligi",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    },
+    {
+      "path": "others/stern_brocot_tree_farey_sequences.md",
+      "original_file_sha256": "7fb6318ff54e6b8cab3fac5d3a3eb3822854317062562aecc16b71f50f096292",
+      "original_body_sha256": "0555db86691d31b3096ff28a276a852b2fd0586a50ada1c7d2aa701893a21321",
+      "canonical_body_sha256": "5e8ad7f25d903001d99deac86d41ec0e801c83d309b609895051e8b6cdca3f47",
+      "migrated_file_sha256": "fe0802fc24f725c6a23a5c749e7f1bdb88a713de55bc74ea6d489dbfd66b63b5",
+      "cleanup": [
+        "removed legacy generated translation-status block",
+        "removed legacy generated attribution footer"
+      ],
+      "legacy_title": "Stern–Brocot daraxti va Farey ketma-ketliklari",
+      "canonical_title": "Stern–Brocot daraxti va Farey ketma-ketliklari",
+      "title_metadata_corrected_from_h1": false,
+      "body_preserved_after_generated_metadata_cleanup": true
+    }
+  ]
+}

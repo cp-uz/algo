@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ article.translation.title }} reviewi{% endblock %}
+{% block content %}
+<nav class="breadcrumbs"><a href="/moderation/">Moderatsiya</a><span>/</span><span>{{ article.path }}</span></nav>
+<header class="admin-heading"><p class="eyebrow">{{ article.category_uz }} · {{ article.path }}</p><h1>{{ article.translation.title }}</h1><div class="status-row"><span class="badge badge-stage">{{ stage }}</span><span class="badge badge-{{ technical_effective }}">Texnik: {{ review_labels.get(technical_effective,technical_effective) }}</span><span class="badge badge-{{ language_effective }}">Til: {{ review_labels.get(language_effective,language_effective) }}</span></div><p>Kontent SHA-256: <code>{{ body_hash }}</code></p></header>
+{% if applied_result == 'approved_pending_merge' %}
+<p class="notice notice-info"><strong>Review qarori pull requestga yozildi.</strong> O‘zgarish asosiy branchga birlashtirilgach, ushbu sahifadagi canonical holat yangilanadi.{% if applied_url %} <a href="{{ applied_url }}" rel="noopener noreferrer">Pull requestni ochish ↗</a>{% endif %}</p>
+{% elif applied_result == 'applied' %}
+<p class="notice notice-success"><strong>Review qarori canonical metama’lumotga qo‘llandi.</strong>{% if applied_url %} <a href="{{ applied_url }}" rel="noopener noreferrer">GitHub natijasini ochish ↗</a>{% endif %}</p>
+{% endif %}
+<div class="review-form-grid">
+{% for kind,title in [('technical','Texnik review'),('language','Til reviewi')] %}
+<section class="form-card"><h2>{{ title }}</h2>{% set review=article.reviews[kind] %}<dl class="detail-list"><dt>Holat</dt><dd>{{ review_labels.get(review.status,review.status) }}</dd><dt>Reviewer</dt><dd>{{ review.reviewer or '—' }}</dd><dt>Vaqt</dt><dd>{{ review.reviewed_at or '—' }}</dd><dt>Izoh</dt><dd>{{ review.notes or '—' }}</dd></dl><form method="post" action="/moderation/article/{{ article.path }}/review"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="review_type" value="{{ kind }}"><label for="notes-{{ kind }}">Yangi qaror izohi</label><textarea id="notes-{{ kind }}" name="notes" rows="3" maxlength="4000"></textarea><div class="form-actions"><button class="button button-secondary" name="status" value="pending" type="submit">Pending</button><button class="button button-warning" name="status" value="changes_requested" type="submit">O‘zgartirish so‘rash</button><button class="button button-primary" name="status" value="approved" type="submit">Tasdiqlash</button></div></form></section>
+{% endfor %}
+</div>
+<section class="form-card"><h2>Review tarixi</h2><ol class="event-list">{% for event in article.review_history|reverse %}<li><strong>{{ event.event }}</strong><span>{{ event.actor }} · {{ event.at }}</span>{% if event.notes %}<p>{{ event.notes }}</p>{% endif %}</li>{% else %}<li>Hali tarix yo‘q.</li>{% endfor %}</ol></section>
+{% endblock %}

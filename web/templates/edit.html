@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}{{ article.translation.title }}ni tahrirlash{% endblock %}
+{% block scripts %}<script defer src="/editor-assets/editor.js"></script>{% endblock %}
+{% block content %}
+<nav class="breadcrumbs" aria-label="Sahifa yo‘li"><a href="/">Bosh sahifa</a><span>/</span><a href="/{{ article.route }}">{{ article.translation.title }}</a><span>/</span><span>Tahrirlash taklifi</span></nav>
+<header class="admin-heading">
+  <p class="eyebrow">{{ article.category_uz }} · {{ article.path }}</p>
+  <h1>Tahrirlashni taklif qilish</h1>
+  <p>Front matter va review metadata tizim tomonidan boshqariladi. Quyida faqat maqolaning Markdown matnini tahrirlang.</p>
+</header>
+<form class="editor-form" method="post" action="{{ submit_url }}" data-editor data-preview-url="/preview/{{ article.path }}" data-csrf="{{ csrf_token }}">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+  <div class="editor-grid">
+    <section class="editor-pane">
+      <div class="pane-header"><h2>Markdown</h2><span id="preview-state" role="status">Tayyor</span></div>
+      <label class="sr-only" for="article-body">Maqola Markdown matni</label>
+      <textarea id="article-body" name="body" required spellcheck="true">{{ body }}</textarea>
+    </section>
+    <section class="editor-pane preview-pane" aria-live="polite">
+      <div class="pane-header"><h2>Ko‘rinish</h2><span>Sanitizatsiya qilingan preview</span></div>
+      <div id="article-preview" class="article-content preview-content">{{ preview }}</div>
+    </section>
+  </div>
+  <div class="form-card">
+    <label for="summary"><strong>O‘zgarishlar izohi</strong> <span class="muted">(ixtiyoriy)</span></label>
+    <textarea id="summary" name="summary" rows="4" maxlength="4000" placeholder="Nimani va nima sababdan o‘zgartirdingiz?"></textarea>
+    <div class="form-actions">
+      <a class="button button-secondary" href="/{{ article.route }}">Bekor qilish</a>
+      <button class="button button-primary" type="submit">Moderatsiyaga yuborish</button>
+    </div>
+  </div>
+</form>
+{% endblock %}

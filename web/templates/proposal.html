@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Taklif #{{ proposal.id }}{% endblock %}
+{% block content %}
+<nav class="breadcrumbs"><a href="/my-proposals">Takliflarim</a><span>/</span><span>#{{ proposal.id }}</span></nav>
+<header class="admin-heading">
+  <p class="eyebrow">{{ proposal.article_path }}</p>
+  <h1>Taklif #{{ proposal.id }}</h1>
+  <div class="status-row"><span class="badge badge-{{ proposal.status }}">{{ proposal.status_label }}</span><span class="diff-stat added">+{{ added }}</span><span class="diff-stat removed">−{{ removed }}</span></div>
+</header>
+<div class="admin-two-column">
+  <section class="form-card">
+    <h2>Taklif ma’lumoti</h2>
+    <dl class="detail-list">
+      <dt>Yuboruvchi</dt><dd>{{ proposal.submitter_name }} (@{{ proposal.submitter_login }})</dd>
+      <dt>Yuborilgan</dt><dd>{{ proposal.created_at }}</dd>
+      <dt>Izoh</dt><dd>{{ proposal.summary or 'Izoh berilmagan.' }}</dd>
+      {% if proposal.claim %}<dt>Jarayon</dt><dd>{{ proposal.claim.moderator_name }} tasdiqlangan o‘zgarishni qo‘llamoqda · {{ proposal.claim.claimed_at }}</dd>{% endif %}
+      {% if proposal.moderator_name %}<dt>Moderator</dt><dd>{{ proposal.moderator_name }} · {{ proposal.moderated_at }}</dd>{% endif %}
+      {% if proposal.feedback %}<dt>Moderatsiya izohi</dt><dd>{{ proposal.feedback }}</dd>{% endif %}
+      {% if proposal.applied_url %}<dt>GitHub</dt><dd><a href="{{ proposal.applied_url }}" rel="noopener noreferrer">Natijani ochish ↗</a></dd>{% endif %}
+    </dl>
+  </section>
+  <section class="form-card">
+    <h2>Jarayon</h2>
+    <ol class="event-list">
+      {% for event in proposal.events %}<li><strong>{{ event.event }}</strong><span>{{ event.actor_name }} · {{ event.at }}</span>{% if event.message %}<p>{{ event.message }}</p>{% endif %}</li>{% endfor %}
+    </ol>
+  </section>
+</div>
+{% if can_revise %}
+<section class="form-card">
+  <h2>Taklifni yangilash</h2>
+  <form method="post" action="/proposals/{{ proposal.id }}/revise">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <label for="body">Markdown</label>
+    <textarea class="revision-editor" id="body" name="body" required>{{ proposal.new_body }}</textarea>
+    <label for="summary">Yangilangan izoh</label>
+    <textarea id="summary" name="summary" rows="3" maxlength="4000">{{ proposal.summary }}</textarea>
+    <button class="button button-primary" type="submit">Qayta moderatsiyaga yuborish</button>
+  </form>
+</section>
+{% endif %}
+{% if user.role in ['reviewer','moderator'] %}<p><a class="button button-secondary" href="/moderation/{{ proposal.id }}">Moderator ko‘rinishi</a></p>{% endif %}
+{% endblock %}
